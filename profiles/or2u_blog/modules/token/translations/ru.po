@@ -1,0 +1,593 @@
+# Russian translation of Token (7.x-1.0-beta4)
+# Copyright (c) 2011 by the Russian translation team
+# Generated from files:
+#  token/token.tokens.inc: n/a
+#  token/token.pages.inc: n/a
+#  token/token.module: n/a
+#  token/token.info: n/a
+#  token/token.js: n/a
+#  token/token.install: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Token (7.x-1.0-beta4)\n"
+"POT-Creation-Date: 2011-08-21 13:04+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: token.tokens.inc:200,225
+msgid "Title"
+msgstr "Название"
+
+#: token.pages.inc:153
+msgid "Value"
+msgstr "Значение"
+
+#: token.pages.inc:48; token.tokens.inc:109,942
+msgid "Description"
+msgstr "Описание"
+
+#: token.tokens.inc:96
+msgid "Content types"
+msgstr "Типы материалов"
+
+#: token.tokens.inc:315
+msgid "Number"
+msgstr "Количество"
+
+#: token.tokens.inc:209
+msgid "Parent"
+msgstr "Контрагент"
+
+#: token.pages.inc:46; token.tokens.inc:101,934
+msgid "Name"
+msgstr "Название"
+
+#: token.tokens.inc:884
+msgid "Book"
+msgstr "Подшивка"
+
+#: token.tokens.inc:45,204,229,250
+msgid "URL"
+msgstr "Адрес ссылки"
+
+#: token.tokens.inc:955
+msgid "Menu"
+msgstr "Меню"
+
+#: token.tokens.inc:172
+msgid "Picture"
+msgstr "Изображение"
+
+#: token.tokens.inc:89
+msgid "Content type"
+msgstr "Тип материалов"
+
+#: token.tokens.inc:935
+msgid "The name of the menu."
+msgstr "Название меню."
+
+#: token.tokens.inc:964
+msgid "Menu link"
+msgstr "Ссылка меню"
+
+#: token.tokens.inc:178
+msgid "Roles"
+msgstr "Роли"
+
+#: token.tokens.inc:290
+msgid "Count"
+msgstr "Счётчик"
+
+#: token.tokens.inc:286
+msgid "Last"
+msgstr "Последняя"
+
+#: token.tokens.inc:311
+msgid "Random"
+msgstr "Случайно"
+
+#: token.tokens.inc:214
+msgid "Root"
+msgstr "Корневая"
+
+#: token.module:74,83,92,101
+msgid "Tokens"
+msgstr "Маркеры"
+
+#: token.pages.inc:47,152; token.info:0
+msgid "Token"
+msgstr "Маркер"
+
+#: token.tokens.inc:282
+msgid "First"
+msgstr "Первая"
+
+#: token.tokens.inc:294
+msgid "Reversed"
+msgstr "Оборот"
+
+#: token.tokens.inc:929
+msgid "Menus"
+msgstr "Меню"
+
+#: token.tokens.inc:148
+msgid "Extension"
+msgstr "Расширение"
+
+#: token.tokens.inc:299
+msgid "Keys"
+msgstr ""
+
+#: token.tokens.inc:259
+msgid "Alias"
+msgstr "Синоним"
+
+#: token.tokens.inc:113
+msgid "Node count"
+msgstr "Количество материалов"
+
+#: token.tokens.inc:185
+msgid "IP address"
+msgstr "IP-адрес"
+
+#: token.tokens.inc:130
+msgid "Root term"
+msgstr ""
+
+#: token.tokens.inc:26
+msgid "The size of the file."
+msgstr "Размер файла."
+
+#: token.tokens.inc:191
+msgid "Menu links"
+msgstr "Меню"
+
+#: token.tokens.inc:16
+msgid "Current date"
+msgstr "Текущая дата"
+
+#: token.tokens.inc:105,136,938
+msgid "Machine-readable name"
+msgstr "Системное название"
+
+#: token.tokens.inc:277
+msgid "Array"
+msgstr ""
+
+#: token.tokens.inc:196
+msgid "Link ID"
+msgstr "ID ссылки."
+
+#: token.tokens.inc:117,125,140,950,960
+msgid "Edit URL"
+msgstr "Редактировать URL"
+
+#: token.tokens.inc:85
+msgid "Revision log message"
+msgstr "Примечание"
+
+#: token.pages.inc:89,183
+msgid "No tokens available."
+msgstr "Нет доступных маркеров."
+
+#: token.pages.inc:92
+msgid "Click a token to insert it into the field you've last clicked."
+msgstr ""
+"Кликните для вставки маркера в "
+"последнее выбранное поле."
+
+#: token.tokens.inc:80
+msgid "Translation source node"
+msgstr "Перевод исходного материала"
+
+#: token.module:20
+msgid "List of the currently available tokens on this site"
+msgstr ""
+"Список доступных в данный момент "
+"маркеров на этом сайте."
+
+#: token.info:0
+msgid ""
+"Provides a user interface for the Token API and some missing core "
+"tokens."
+msgstr ""
+"Обеспечивает пользовательский "
+"интерфейс для Token API и некоторые "
+"пропущенные маркеры ядра."
+
+#: token.js:0
+msgid "Insert this token into your form"
+msgstr "Вставить этот маркер в вашу форму"
+
+#: token.js:0
+msgid "First click a text field to insert your tokens into."
+msgstr ""
+"Сначала кликните в текстовое поле, "
+"чтобы вставить в него ваши маркеры."
+
+#: token.tokens.inc:255
+msgid "Internal path"
+msgstr "Внутренний путь"
+
+#: token.tokens.inc:221
+msgid "Current page"
+msgstr "Текущая страница"
+
+#: token.module:627
+msgid ""
+"Available variables are: [site:name], [site:url], [user:name], "
+"[user:mail], [site:login-url], [site:url-brief], [user:edit-url], "
+"[user:one-time-login-url], [user:cancel-url]."
+msgstr ""
+"Доступные переменные: [site:name], [site:url], "
+"[user:name], [user:mail], [site:login-url], [site:url-brief], "
+"[user:edit-url], [user:one-time-login-url], [user:cancel-url]."
+
+#: token.tokens.inc:86
+msgid "The explanation of the most recent changes made to the node."
+msgstr ""
+"Разъяснение самых последних "
+"изменений, внесенных в материал."
+
+#: token.tokens.inc:226
+msgid "The title of the current page."
+msgstr "Заголовок текущей страницы."
+
+#: token.tokens.inc:230
+msgid "The URL of the current page."
+msgstr "URL текущей страницы."
+
+#: token.tokens.inc:235
+msgid "The page number of the current page when viewing paged lists."
+msgstr ""
+"Номер текущей страницы при показе "
+"списка страниц."
+
+#: token.module:567
+msgid ""
+"The %element-title is using the following invalid tokens: "
+"@invalid-tokens."
+msgstr ""
+"%element-title использует следующие "
+"неверные маркеры: @invalid-tokens."
+
+#: token.tokens.inc:81
+msgid "The source node for this current node's translation set."
+msgstr ""
+"Исходный материал для данного набора "
+"переводов материала."
+
+#: token.tokens.inc:159
+msgid "Account cancellation URL"
+msgstr "URL аннулирования учетной записи"
+
+#: token.tokens.inc:160
+msgid "The URL of the confirm delete page for the user account."
+msgstr ""
+"URL подтверждения удаления страницы "
+"для пользовательской учетной записи."
+
+#: token.tokens.inc:165
+msgid "One-time login URL"
+msgstr "URL одноразового входа"
+
+#: token.tokens.inc:166
+msgid "The URL of the one-time login page for the user account."
+msgstr ""
+"URL страницы одноразового входа для "
+"пользовательской учетной записи."
+
+#: token.tokens.inc:192
+msgid "Tokens related to menu links."
+msgstr "Маркеры, связанные со ссылками меню."
+
+#: token.tokens.inc:197
+msgid "The unique ID of the menu link."
+msgstr "Уникальный ID ссылки меню."
+
+#: token.tokens.inc:201
+msgid "The title of the menu link."
+msgstr "Заголовок ссылки меню."
+
+#: token.tokens.inc:205
+msgid "The URL of the menu link."
+msgstr "URL ссылки меню."
+
+#: token.tokens.inc:210
+msgid "The menu link's parent."
+msgstr "Родитель ссылки меню."
+
+#: token.tokens.inc:222
+msgid "Tokens related to the current page request."
+msgstr ""
+"Маркеры, связанные с запросом текущей "
+"страницы."
+
+#: token.tokens.inc:234
+msgid "Page number"
+msgstr "Номер страницы"
+
+#: token.tokens.inc:885
+msgid "The book page associated with the node."
+msgstr ""
+"Страница подшивки, связанная с этим "
+"материалом."
+
+#: token.tokens.inc:965
+msgid "The menu link for this node."
+msgstr "Ссылка в меню для этого материала."
+
+#: token.install:14
+msgid "@token (defined by modules: @modules)"
+msgstr "@token (определен модулями: @modules)"
+
+#: token.install:17
+msgid "Duplicate tokens"
+msgstr "Повторяющиеся маркеры"
+
+#: token.install:18
+msgid ""
+"The following tokens are defined by multiple modules and may cause "
+"problems when performing token replacement."
+msgstr ""
+"Указанные макеры определены "
+"множеством модулей, что может "
+"привести к проблемам при их замене."
+
+#: token.tokens.inc:215
+msgid "The menu link's root."
+msgstr ""
+
+#: token.tokens.inc:319
+msgid "Hash"
+msgstr ""
+
+#: token.tokens.inc:149
+msgid "The extension of the file."
+msgstr ""
+
+#: token.tokens.inc:17
+msgid "Tokens related to the current date and time."
+msgstr ""
+
+#: token.tokens.inc:46
+msgid "The URL of the @entity."
+msgstr ""
+
+#: token.tokens.inc:90
+msgid "The content type of the node."
+msgstr ""
+
+#: token.tokens.inc:97
+msgid "Tokens related to content types."
+msgstr ""
+
+#: token.tokens.inc:102
+msgid "The name of the content type."
+msgstr "Название типа содержимого."
+
+#: token.tokens.inc:106
+msgid "The unique machine-readable name of the content type."
+msgstr ""
+"Уникальное машинное имя типа "
+"материала."
+
+#: token.tokens.inc:110
+msgid "The optional description of the content type."
+msgstr ""
+"Необязательное описание типа "
+"содержимого."
+
+#: token.tokens.inc:114
+msgid "The number of nodes belonging to the content type."
+msgstr ""
+
+#: token.tokens.inc:118
+msgid "The URL of the content type's edit page."
+msgstr ""
+
+#: token.tokens.inc:126
+msgid "The URL of the taxonomy term's edit page."
+msgstr ""
+"URL страницы редактирования термина "
+"таксономии."
+
+#: token.tokens.inc:137
+msgid "The unique machine-readable name of the vocabulary."
+msgstr ""
+
+#: token.tokens.inc:141
+msgid "The URL of the vocabulary's edit page."
+msgstr ""
+
+#: token.tokens.inc:173
+msgid "The picture of the user."
+msgstr ""
+
+#: token.tokens.inc:238
+msgid "Page argument"
+msgstr ""
+
+#: token.tokens.inc:239
+msgid ""
+"The specific argument of the current page (e.g. 'arg:1' on the page "
+"'node/1' returns '1')."
+msgstr ""
+
+#: token.tokens.inc:251
+msgid "Tokens related to URLs."
+msgstr "Маркеры относящиеся к URL."
+
+#: token.tokens.inc:256
+msgid "The internal Drupal path of the URL."
+msgstr ""
+
+#: token.tokens.inc:260
+msgid "The alias of the URL."
+msgstr ""
+
+#: token.tokens.inc:263
+msgid "Relative URL"
+msgstr "Относительный URL"
+
+#: token.tokens.inc:264
+msgid "The relative URL."
+msgstr "Относительный URL адрес."
+
+#: token.tokens.inc:267
+msgid "Absolute URL"
+msgstr "Абсолютный URL"
+
+#: token.tokens.inc:268
+msgid "The absolute URL."
+msgstr "Абсолютный URL адрес."
+
+#: token.tokens.inc:930
+msgid "Tokens related to menus."
+msgstr "Маркеры связанные с меню."
+
+#: token.tokens.inc:939
+msgid "The unique machine-readable name of the menu."
+msgstr "Уникальное машинное имя меню"
+
+#: token.tokens.inc:943
+msgid "The optional description of the menu."
+msgstr "Необязательное описание меню."
+
+#: token.tokens.inc:946
+msgid "Menu link count"
+msgstr ""
+
+#: token.tokens.inc:947
+msgid "The number of menu links belonging to the menu."
+msgstr "Количество пунктов меню"
+
+#: token.tokens.inc:951
+msgid "The URL of the menu's edit page."
+msgstr ""
+
+#: token.tokens.inc:956
+msgid "The menu of the menu link."
+msgstr ""
+
+#: token.tokens.inc:961
+msgid "The URL of the menu link's edit page."
+msgstr ""
+
+#: token.tokens.inc:1081
+msgid "@category @type field."
+msgstr ""
+
+#: token.module:552
+msgid "The %element-title cannot contain fewer than one token."
+msgid_plural "The %element-title must contain at least @count tokens."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: token.module:559
+msgid "The %element-title must contain as most one token."
+msgid_plural "The %element-title must contain at most @count tokens."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: token.tokens.inc:179
+msgid "The user roles associated with the user account."
+msgstr ""
+"Роли, относящиеся к учетной записи "
+"пользователя."
+
+#: token.tokens.inc:271
+msgid "Brief URL"
+msgstr ""
+
+#: token.tokens.inc:272
+msgid "The URL without the protocol and trailing backslash."
+msgstr ""
+
+#: token.tokens.inc:278
+msgid "Tokens related to arrays of strings."
+msgstr "Маркеры связанные с массивами строк"
+
+#: token.tokens.inc:283
+msgid "The first element of the array."
+msgstr ""
+
+#: token.tokens.inc:287
+msgid "The last element of the array."
+msgstr "Последний элемент массива."
+
+#: token.tokens.inc:291
+msgid "The number of elements in the array."
+msgstr "Количество элементов в массиве."
+
+#: token.tokens.inc:295
+msgid "The array reversed."
+msgstr ""
+
+#: token.tokens.inc:300
+msgid "The array of keys of the array."
+msgstr ""
+
+#: token.tokens.inc:304
+msgid "Imploded"
+msgstr ""
+
+#: token.tokens.inc:305
+msgid ""
+"The values of the array joined together with a custom string "
+"in-between each value."
+msgstr ""
+
+#: token.tokens.inc:67
+msgid "A date in '@type' format. (%date)"
+msgstr ""
+
+#: token.tokens.inc:131
+msgid "The root term of the taxonomy term."
+msgstr ""
+
+#: token.tokens.inc:152
+msgid "File byte size"
+msgstr ""
+
+#: token.tokens.inc:153
+msgid "The size of the file, in bytes."
+msgstr "Размер файла, в байтах."
+
+#: token.tokens.inc:243
+msgid "Query string value"
+msgstr ""
+
+#: token.tokens.inc:244
+msgid "The value of a specific query string field of the current page."
+msgstr ""
+
+#: token.tokens.inc:316
+msgid "A random number from 0 to @max."
+msgstr ""
+
+#: token.tokens.inc:320
+msgid "A random hash. The possible hashing algorithms are: @hash-algos."
+msgstr ""
+
+#: token.tokens.inc:799
+msgid ""
+"Attempting to perform token replacement for token type %type without "
+"required data"
+msgstr ""
+
+#: token.tokens.inc:1216
+msgid "@type field."
+msgstr ""
+
+#: token.tokens.inc:1218
+msgid "Also known as %labels."
+msgstr ""
+

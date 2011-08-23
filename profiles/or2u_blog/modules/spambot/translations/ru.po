@@ -1,0 +1,447 @@
+# Russian translation of Spambot  (7.x-1.0-beta1)
+# Copyright (c) 2011 by the Russian translation team
+# Generated from files:
+#  spambot/spambot.admin.inc: n/a
+#  spambot/spambot.module: n/a
+#  spambot/spambot.pages.inc: n/a
+#  spambot/spambot.install: n/a
+#  spambot/spambot.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Spambot  (7.x-1.0-beta1)\n"
+"POT-Creation-Date: 2011-08-21 13:02+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: spambot.admin.inc:4
+msgid "Never"
+msgstr "Никогда"
+
+#: spambot.module:27
+msgid "Spam"
+msgstr "Спам"
+
+#: spambot.admin.inc:36
+msgid "User registration"
+msgstr ""
+
+#: spambot.admin.inc:86
+msgid "Action to take"
+msgstr "Применяемое действие"
+
+#: spambot.admin.inc:52
+msgid "1 second"
+msgstr "1 секунда"
+
+#: spambot.pages.inc:91
+msgid "Take action"
+msgstr "Внести исправления"
+
+#: spambot.install:20
+msgid "Blacklisted. Now go away!"
+msgstr "Черный список. Пойдите прочь!"
+
+#: spambot.module:88,102,174,179,183,248,252,397
+msgid "spambot"
+msgstr "Спамбот"
+
+#: spambot.admin.inc:49
+msgid "Message to display when user registration is blocked."
+msgstr ""
+
+#: spambot.admin.inc:8
+msgid "Spammer criteria"
+msgstr ""
+
+#: spambot.admin.inc:73
+msgid "Scan existing accounts"
+msgstr ""
+
+#: spambot.admin.inc:74
+msgid ""
+"This module can also check existing user accounts to see if they are "
+"known spammers. It works by checking user accounts with increasing "
+"uid's ie. user id 2, 3, 4 etc during cron. Any existing users found to "
+"be known spammers are logged. Blocked user accounts are not checked."
+msgstr ""
+
+#: spambot.admin.inc:79
+msgid "Maximum number of user accounts to check per cron"
+msgstr ""
+
+#: spambot.admin.inc:80
+msgid ""
+"Enter the number of user accounts to check for each cron. If you do "
+"not want to check existing user accounts, leave this as 0.<br />Be "
+"careful not to make this value too large, as it will slow your cron "
+"execution down and may cause your site to query www.stopforumspam.com "
+"more times than allowed each day."
+msgstr ""
+
+#: spambot.admin.inc:87
+msgid ""
+"Please select what action to take for user accounts which are found to "
+"be spammers."
+msgstr ""
+
+#: spambot.admin.inc:89
+msgid "None, just log it."
+msgstr ""
+
+#: spambot.admin.inc:90
+msgid "Block user account"
+msgstr ""
+
+#: spambot.admin.inc:91
+msgid "Delete user account"
+msgstr ""
+
+#: spambot.admin.inc:114
+msgid "The last checked user account is: !account (uid @uid)"
+msgstr ""
+
+#: spambot.admin.inc:122
+msgid "Accounts checked: @checked, Accounts remaining: @remaining"
+msgstr ""
+
+#: spambot.admin.inc:125
+msgid "Scan status"
+msgstr ""
+
+#: spambot.admin.inc:131
+msgid "Continue scanning after this user id"
+msgstr ""
+
+#: spambot.admin.inc:133
+msgid ""
+"Scanning of existing user accounts has progressed to, and including, "
+"user id @uid and will continue by scanning accounts after user id "
+"@uid. If you wish to change where the scan continues scanning from, "
+"enter a different user id here. If you wish to scan all users again, "
+"enter a value of 0."
+msgstr ""
+
+#: spambot.admin.inc:139
+msgid "www.stopforumspam.com API key"
+msgstr ""
+
+#: spambot.admin.inc:140; spambot.module:131
+msgid ""
+"If you wish to report spammers to Stop Forum Spam, you need to "
+"register for an API key at the <a "
+"href=\"http://www.stopforumspam.com\">Stop Forum Spam</a> website."
+msgstr ""
+
+#: spambot.admin.inc:48; spambot.module:89
+msgid "Your email address or username is blacklisted."
+msgstr ""
+
+#: spambot.pages.inc:10
+msgid "This account has @n nodes and @c comments."
+msgstr ""
+
+#: spambot.pages.inc:13
+msgid "This account has @n nodes."
+msgstr ""
+
+#: spambot.pages.inc:23
+msgid "Take action against this account"
+msgstr ""
+
+#: spambot.pages.inc:29
+msgid "Unpublish nodes and comments by this account"
+msgstr ""
+
+#: spambot.pages.inc:34
+msgid "Delete nodes and comments by this account"
+msgstr ""
+
+#: spambot.pages.inc:49
+msgid "Report this account to www.stopforumspam.com as a spammer"
+msgstr ""
+
+#: spambot.pages.inc:50
+msgid ""
+"Requires that you have an API key from <a "
+"href=\"http://www.stopforumspam.com\">www.stopforumspam.com</a> and at "
+"least one IP address selected below."
+msgstr ""
+
+#: spambot.pages.inc:57
+msgid "IP Addresses"
+msgstr ""
+
+#: spambot.pages.inc:58
+msgid "This is a list of IP addresses used by this account."
+msgstr ""
+
+#: spambot.pages.inc:66
+msgid "IP addresses to report"
+msgstr ""
+
+#: spambot.pages.inc:67
+msgid ""
+"If you wish to report this account as a spammer, at least one IP "
+"address must be selected."
+msgstr ""
+
+#: spambot.pages.inc:76
+msgid ""
+"No IP addresses found. IP address information for this user may have "
+"expired from storage."
+msgstr ""
+
+#: spambot.pages.inc:81
+msgid "Block this account"
+msgstr ""
+
+#: spambot.pages.inc:86
+msgid "Delete this account"
+msgstr ""
+
+#: spambot.pages.inc:152
+msgid "No matches against known spammers found."
+msgstr ""
+
+#: spambot.pages.inc:118,139
+msgid "Error contacting service."
+msgstr ""
+
+#: spambot.pages.inc:157
+msgid "Sorry, taking action against uid 1 is not allowed."
+msgstr ""
+
+#: spambot.pages.inc:165
+msgid "Account blocked."
+msgstr ""
+
+#: spambot.pages.inc:168
+msgid "This account is already blocked."
+msgstr ""
+
+#: spambot.pages.inc:177
+msgid "This account cannot be reported without an IP address."
+msgstr ""
+
+#: spambot.pages.inc:180
+msgid "This account has been reported as a spammer."
+msgstr ""
+
+#: spambot.pages.inc:183
+msgid "There was an error reporting this account as a spammer."
+msgstr ""
+
+#: spambot.pages.inc:187
+msgid ""
+"To report spammers to www.stopforumspam.com, you need to register for "
+"an API key at <a "
+"href=\"http://www.stopforumspam.com\">www.stopforumspam.com</a> and "
+"enter it into the !page."
+msgstr ""
+
+#: spambot.pages.inc:209
+msgid "Nodes and comments have been deleted."
+msgstr ""
+
+#: spambot.pages.inc:223
+msgid "Nodes and comments have been unpublished."
+msgstr ""
+
+#: spambot.module:88
+msgid "Blocked registration: @reasons"
+msgstr ""
+
+#: spambot.module:121
+msgid "Block and report the selected users as spammers"
+msgstr ""
+
+#: spambot.module:170
+msgid "spammer"
+msgstr ""
+
+#: spambot.module:174
+msgid "Blocked spam account: @name &lt;@email&gt; (uid @uid)"
+msgstr ""
+
+#: spambot.module:179
+msgid "Deleted spam account: @name &lt;@email&gt; (uid @uid)"
+msgstr ""
+
+#: spambot.module:183
+msgid "Found spam account: @name &lt;@email&gt; (uid @uid)"
+msgstr ""
+
+#: spambot.module:248
+msgid "Request unsuccessful: @url !dump"
+msgstr ""
+
+#: spambot.module:252
+msgid "Error contacting service: @url !dump"
+msgstr ""
+
+#: spambot.module:397
+msgid "Error reporting account: @url !dump"
+msgstr ""
+
+#: spambot.module:18; spambot.info:0
+msgid "Spambot"
+msgstr ""
+
+#: spambot.info:0
+msgid ""
+"Anti-spam module that uses data from www.stopforumspam.com to protect "
+"the user registration form against known spammers and spambots."
+msgstr ""
+
+#: spambot.admin.inc:9
+msgid ""
+"A user account or an attempted user registration will be deemed a "
+"spammer if the email, username, or IP address has been reported to "
+"www.stopforumspam.com more times than the following thresholds."
+msgstr ""
+
+#: spambot.admin.inc:14
+msgid "Number of times the email has been reported is equal to or more than"
+msgstr ""
+
+#: spambot.admin.inc:15
+msgid ""
+"If the email address for a user or user registration has been reported "
+"to www.stopforumspam.com this many times, then it is deemed as a "
+"spammer."
+msgstr ""
+
+#: spambot.admin.inc:16
+msgid "Don't use email as a criteria"
+msgstr ""
+
+#: spambot.admin.inc:21
+msgid ""
+"Number of times the username has been reported is equal to or more "
+"than"
+msgstr ""
+
+#: spambot.admin.inc:22
+msgid ""
+"If the username for a user or user registration has been reported to "
+"www.stopforumspam.com this many times, then it is deemed as a spammer. "
+"Be careful about using this option as you may accidentally block "
+"genuine users who happen to choose the same username as a known "
+"spammer."
+msgstr ""
+
+#: spambot.admin.inc:23
+msgid "Don't use username as a criteria"
+msgstr ""
+
+#: spambot.admin.inc:28
+msgid ""
+"Number of times the IP address has been reported is equal to or more "
+"than"
+msgstr ""
+
+#: spambot.admin.inc:30
+msgid "Don't use IP address as a criteria"
+msgstr ""
+
+#: spambot.admin.inc:41
+msgid "Protect the user registration form"
+msgstr ""
+
+#: spambot.admin.inc:42
+msgid ""
+"If ticked, new user registrations will be tested if they match any "
+"known spammers and blacklisted."
+msgstr ""
+
+#: spambot.admin.inc:47
+msgid "User registration blocked message"
+msgstr ""
+
+#: spambot.admin.inc:66
+msgid "Report blocked user registrations as spammers"
+msgstr ""
+
+#: spambot.admin.inc:67
+msgid ""
+"If ticked, new user registrations which were blocked as spammers are "
+"also reported to www.stopforumspam.com as spammers. Requires an API "
+"key."
+msgstr ""
+
+#: spambot.pages.inc:18
+msgid "Check if this account matches a known spammer"
+msgstr ""
+
+#: spambot.pages.inc:110
+msgid "This account's email address matches @num times: @email"
+msgstr ""
+
+#: spambot.pages.inc:114
+msgid "This account's username matches @num times: @username"
+msgstr ""
+
+#: spambot.pages.inc:135
+msgid "An IP address @ip used by this account matches @num times."
+msgstr ""
+
+#: spambot.module:78
+msgid "email=@value"
+msgstr ""
+
+#: spambot.module:81
+msgid "username=@value"
+msgstr ""
+
+#: spambot.module:84
+msgid "ip=@value"
+msgstr ""
+
+#: spambot.module:102
+msgid "Reported as spammer: email=@email,username=@username,ip=@ip"
+msgstr ""
+
+#: spambot.admin.inc:29
+msgid ""
+"If the IP address for a user or user registration has been reported to "
+"www.stopforumspam.com this many times, then it is deemed as a spammer. "
+"Be careful about setting this threshold too low as IP addresses can "
+"change."
+msgstr ""
+
+#: spambot.admin.inc:52
+msgid "Don't delay"
+msgstr ""
+
+#: spambot.admin.inc:54
+msgid "@num seconds"
+msgstr ""
+
+#: spambot.admin.inc:58
+msgid "If blacklisted, delay for"
+msgstr ""
+
+#: spambot.admin.inc:59
+msgid ""
+"If an attempted user registration is blacklisted, you can choose to "
+"deliberately delay the request. This can be useful for slowing them "
+"down if they continually try to register.<br />Be careful about "
+"choosing too large a value for this as it may exceed your PHP "
+"max_execution_time."
+msgstr ""
+
+#: spambot.module:141
+msgid ""
+"Reporting %name as a spammer failed because there are no IP addresses "
+"stored for that user."
+msgstr ""
+
+#: spambot.module:19
+msgid "Configure the spambot module"
+msgstr ""
+

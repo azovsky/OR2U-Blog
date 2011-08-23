@@ -1,0 +1,845 @@
+# Russian translation of IMCE (7.x-1.3)
+# Copyright (c) 2011 by the Russian translation team
+# Generated from files:
+#  imce/inc/imce.admin.inc: n/a
+#  imce/inc/imce.js.inc: n/a
+#  imce/inc/imce.page.inc: n/a
+#  imce/tpl/imce-content.tpl.php: n/a
+#  imce/imce.module: n/a
+#  imce/js/imce.js: n/a
+#  imce/imce.info: n/a
+#  imce/imce.install: n/a
+#  imce/tpl/imce-page.tpl.php: n/a
+#  imce/js/imce_set_app.js: n/a
+#  imce/js/imce_set_inline.js: n/a
+#  imce/js/imce_extras.js: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: IMCE (7.x-1.3)\n"
+"POT-Creation-Date: 2011-08-21 12:57+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: inc/imce.admin.inc:100,284
+msgid "Save configuration"
+msgstr "Сохранить настройки"
+
+#: inc/imce.admin.inc:433
+msgid "Prefix"
+msgstr "Префикс"
+
+#: inc/imce.admin.inc:433
+msgid "Suffix"
+msgstr "Суффикс"
+
+#: inc/imce.admin.inc:21,342,500; inc/imce.js.inc:46; inc/imce.page.inc:168,207
+msgid "Delete"
+msgstr "Удалить"
+
+#: inc/imce.admin.inc:15
+msgid "Operations"
+msgstr "Действия"
+
+#: inc/imce.admin.inc:501
+msgid "Cancel"
+msgstr "Отменить"
+
+#: tpl/imce-content.tpl.php:51
+msgid "all"
+msgstr "все"
+
+#: inc/imce.page.inc:124
+msgid "File"
+msgstr "Файл"
+
+#: inc/imce.admin.inc:20
+msgid "Edit"
+msgstr "Изменить"
+
+#: tpl/imce-content.tpl.php:82
+msgid "Date"
+msgstr "Date"
+
+#: tpl/imce-content.tpl.php:79
+msgid "Size"
+msgstr "Размер"
+
+#: inc/imce.admin.inc:126
+msgid "Weight"
+msgstr "Вес"
+
+#: inc/imce.admin.inc:359; inc/imce.page.inc:1065
+msgid "root"
+msgstr "начало"
+
+#: inc/imce.admin.inc:433
+msgid "Name"
+msgstr "Название"
+
+#: tpl/imce-content.tpl.php:34
+msgid "Help"
+msgstr "Справка"
+
+#: inc/imce.admin.inc:433
+msgid "Dimensions"
+msgstr "Измерения"
+
+#: imce.module:126
+msgid "link"
+msgstr "Ссылка"
+
+#: inc/imce.admin.inc:245; tpl/imce-content.tpl.php:51
+msgid "Permitted file extensions"
+msgstr "Допустимые расширения файлов"
+
+#: inc/imce.admin.inc:127
+msgid "n/a"
+msgstr "нет"
+
+#: inc/imce.admin.inc:332; inc/imce.js.inc:25; inc/imce.page.inc:136; js/imce.js:0
+msgid "Upload"
+msgstr "Закачать"
+
+#: tpl/imce-content.tpl.php:78
+msgid "File name"
+msgstr "Название файла"
+
+#: inc/imce.admin.inc:112
+msgid "User role"
+msgstr "Роль"
+
+#: tpl/imce-content.tpl.php:80
+msgid "Width"
+msgstr "Ширина"
+
+#: tpl/imce-content.tpl.php:81
+msgid "Height"
+msgstr "Высота"
+
+#: imce.info:0
+msgid "Media"
+msgstr "Мультимедиа"
+
+#: tpl/imce-content.tpl.php:68
+msgid "Navigation"
+msgstr "Навигация"
+
+#: inc/imce.admin.inc:15,209
+msgid "Profile name"
+msgstr "Название профиля"
+
+#: js/imce.js:0
+msgid "Close"
+msgstr "Закрыть"
+
+#: imce.module:32; imce.install:14; imce.info:0
+msgid "IMCE"
+msgstr "IMCE"
+
+#: inc/imce.admin.inc:57
+msgid "Common settings"
+msgstr "Общие параметры"
+
+#: inc/imce.admin.inc:327
+msgid "Browse"
+msgstr "Просмотреть"
+
+#: inc/imce.admin.inc:255
+msgid "WIDTHxHEIGHT"
+msgstr "ШИРИНАхВЫСОТА"
+
+#: inc/imce.admin.inc:224; tpl/imce-content.tpl.php:50
+msgid "Maximum file size per upload"
+msgstr "Размер одного файла"
+
+#: tpl/imce-page.tpl.php:7
+msgid "File Browser"
+msgstr "Обзор файлов"
+
+#: inc/imce.page.inc:139
+msgid "Upload file"
+msgstr "Загрузить файл"
+
+#: inc/imce.admin.inc:295
+msgid "The changes have been saved."
+msgstr "Изменения сохранены."
+
+#: inc/imce.page.inc:358; js/imce.js:0; tpl/imce-content.tpl.php:50,52,53
+msgid "unlimited"
+msgstr "unlimited"
+
+#: inc/imce.admin.inc:162
+msgid "Changes have been saved."
+msgstr "Изменения сохранены."
+
+#: inc/imce.admin.inc:227,234,241
+msgid "MB"
+msgstr "МБ"
+
+#: inc/imce.admin.inc:226
+msgid "Your PHP settings limit the maximum file size per upload to %size."
+msgstr ""
+"Настройка PHP ограничивает "
+"максимальный размер файла %size."
+
+#: imce.module:126
+msgid "image"
+msgstr "image"
+
+#: imce.module:33
+msgid "Control how your image/file browser works."
+msgstr ""
+"Настройка параметров работы модуля "
+"IMCE."
+
+#: inc/imce.admin.inc:63
+msgid "Enable inline image/file insertion into plain textareas"
+msgstr ""
+"Включить вставку изображений (файлов) "
+"в простые текстовые области"
+
+#: imce.module:126
+msgid "Insert !image or !link."
+msgstr "Вставить !image или !link."
+
+#: imce.info:0
+msgid ""
+"An image/file uploader and browser supporting personal directories and "
+"user quota."
+msgstr ""
+"Файловый менеджер с поддержкой "
+"персональных папок."
+
+#: inc/imce.admin.inc:337,445; inc/imce.page.inc:160,190
+msgid "Thumbnails"
+msgstr "Превью"
+
+#: imce.module:39; inc/imce.admin.inc:25
+msgid "Add new profile"
+msgstr "Добавить профиль"
+
+#: inc/imce.admin.inc:379
+msgid "Directories"
+msgstr "Папки"
+
+#: inc/imce.admin.inc:347; inc/imce.js.inc:56; inc/imce.page.inc:176,232
+msgid "Resize"
+msgstr "Изменение размера"
+
+#: js/imce.js:0
+msgid "Log messages"
+msgstr "Сообщения в лог"
+
+#: inc/imce.page.inc:252; js/imce.js:0
+msgid "Please select a file."
+msgstr "Выберите файл."
+
+#: inc/imce.admin.inc:254
+msgid ""
+"The maximum allowed image size (e.g. 640x480). Set to 0 for no "
+"restriction. If an <a href=\"!image-toolkit-link\">image toolkit</a> "
+"is installed, files exceeding this value will be scaled down to fit."
+msgstr ""
+"Максимальный размер изображения "
+"(например <em>640x480</em>). Если ограничения "
+"вводить не нужно, то введите <em>0</em>. При "
+"установленном наборе <a "
+"href=\"/admin/settings/image-toolkit\">обработки "
+"изображений</a> указанные значения "
+"будут приведены в соответствие с "
+"настройками используемого набора."
+
+#: js/imce.js:0
+msgid "Only files with the following extensions are allowed: %files-allowed."
+msgstr ""
+"Прикреплять можно только файлы с "
+"расширениями: %files-allowed."
+
+#: inc/imce.page.inc:630
+msgid "The file is %filesize exceeding the maximum file size of %maxsize."
+msgstr ""
+"Размер файла %filesize превышает "
+"максимальный размер файла %maxsize."
+
+#: imce.module:15,22
+msgid "File browser"
+msgstr "Обзор файлов"
+
+#: inc/imce.admin.inc:28
+msgid "Configuration profiles"
+msgstr "Профили — настройка"
+
+#: inc/imce.admin.inc:70
+msgid "Absolute URLs"
+msgstr "Абсолютные ссылки"
+
+#: inc/imce.admin.inc:72
+msgid "Check if you want IMCE to return absolute file URLs."
+msgstr ""
+"Отметьте это поле, чтобы IMCE "
+"использовал абсолютные адреса вместо "
+"относительных."
+
+#: inc/imce.admin.inc:76
+msgid "Default behaviour for existing files during file uploads"
+msgstr "Загрузка одноимённого файла"
+
+#: inc/imce.admin.inc:79
+msgid "Keep the existing file renaming the new one"
+msgstr "Переименовать новый файл"
+
+#: inc/imce.admin.inc:80
+msgid "Keep the existing file rejecting the new one"
+msgstr "Не сохранять новый файл"
+
+#: inc/imce.admin.inc:81
+msgid "Replace the existing file with the new one"
+msgstr "Заменить существующий файл"
+
+#: inc/imce.admin.inc:86
+msgid "Default method for creating thumbnails"
+msgstr "Стандартный метод создания миниатюр"
+
+#: inc/imce.admin.inc:89
+msgid "Scale the image with respect to the thumbnail dimensions."
+msgstr ""
+"Масштабировать изображение в "
+"соответствии с размерами миниатюры."
+
+#: inc/imce.admin.inc:90
+msgid "First scale then crop the image to fit the thumbnail dimensions."
+msgstr ""
+"Сперва масштабировать, потом обрезать "
+"изображение, чтобы сойтись с "
+"размерами миниатюры."
+
+#: inc/imce.admin.inc:140
+msgid "Role-profile assignments"
+msgstr "Назначения профилей для ролей"
+
+#: inc/imce.admin.inc:198
+msgid "Settings were imported from the profile %name"
+msgstr ""
+"Настройки были импортированы из "
+"профиля %name"
+
+#: inc/imce.admin.inc:211
+msgid "Give a name to this profile."
+msgstr "Введите название профиля."
+
+#: inc/imce.admin.inc:226,233
+msgid "Set to 0 to use the maximum value avaliable."
+msgstr ""
+"Максимальный размер одного файла. "
+"Если размер ограничивать не нужно, то "
+"введите <em>0</em>."
+
+#: inc/imce.admin.inc:231
+msgid "Directory quota"
+msgstr "Размер одной папки"
+
+#: inc/imce.admin.inc:238
+msgid "Total user quota"
+msgstr "Размер всех папок"
+
+#: inc/imce.admin.inc:248
+msgid "Set to * to remove the restriction."
+msgstr ""
+"Если ограничения вводить не нужно, то "
+"введите <em>*</em>."
+
+#: inc/imce.admin.inc:252; tpl/imce-content.tpl.php:52
+msgid "Maximum image resolution"
+msgstr "Максимальный размер"
+
+#: inc/imce.admin.inc:259; tpl/imce-content.tpl.php:53
+msgid "Maximum number of files per operation"
+msgstr "Количество файлов в одной операции"
+
+#: inc/imce.admin.inc:261
+msgid ""
+"You can allow users to select multiple files for operations such as "
+"delete, resize, etc. Entire batch file operation is executed in a "
+"single drupal load, which may be good. However there will be an "
+"increase in script execution time, cpu load and memory consumption "
+"possibly exceeding the limits of your server, which is really bad. For "
+"unlimited number of file handling, set this to 0."
+msgstr ""
+"В одной операции, такой как удаление, "
+"изменение размера и т.д., могут "
+"участвовать несколько файлов "
+"одновременно. Каждая такая операция "
+"может занимать значительные ресурсы, "
+"вызвать превышение времени "
+"выполнения скрипта, сильно загружать "
+"процессор и расходовать значительное "
+"количество памяти, что может не "
+"соответствовать возможностям "
+"сервера. В целях снижения нагрузки на "
+"сервер, можно ограничить количество "
+"файлов, которые могут быть "
+"задействованы в одной операции. Если "
+"ограничения вводить не нужно, то "
+"введите <em>0</em>."
+
+#: inc/imce.admin.inc:295
+msgid "Profile has been added."
+msgstr "Профиль добавлен."
+
+#: inc/imce.admin.inc:322
+msgid "Including subdirectories"
+msgstr "включая подпапки"
+
+#: inc/imce.admin.inc:377
+msgid "Directory path"
+msgstr "Адрес"
+
+#: inc/imce.admin.inc:381
+msgid ""
+"Define directories that users of this profile can access.\n"
+"<ul>\n"
+"\t<li>Use alphanumeric characters as directory paths.</li>\n"
+"\t<li>To specify file system root, just enter <strong>.</strong>(dot) "
+"character.</li>\n"
+"\t<li>Use <strong>%uid</strong> as a placeholder for user ID. Ex: "
+"<em>users/user%uid</em> creates directories such as "
+"<em>users/user1</em>, <em>users/user42</em>, etc.</li>\n"
+"  <li>To remove a directory from the list, leave the directory path "
+"blank.</li>\n"
+"  <li>If you want more flexibility in directory paths you can execute "
+"php to return a directory path.<br />\n"
+"  For php execution your directory path must start with "
+"<strong>php:</strong> and the rest must be a valid php code that is "
+"expected to return the actual directory path. <br />Ex: <strong>php: "
+"return 'users/'.$user->name;</strong> defines "
+"<strong>users/USER-NAME</strong> as the directory path.<br />\n"
+"  A multi-level directory example <strong>php: return date('Y', "
+"$user->created).'/'.date('m', $user->created).'/'.$user->uid;</strong> "
+"defines <strong>MEMBERSHIP-YEAR/MONTH/USER-ID</strong> as the "
+"directory path, resulting in self-categorized user directories based "
+"on membership date.<br />\n"
+"  Note that you should use the $user variable instead of "
+"$GLOBALS['user'] since they are not always the same object.</li>\n"
+"</ul>\n"
+"<p>Note that thumbnails permission does not affect thumbnail creation "
+"on upload. See thumbnails decription below.</p>\n"
+"<p>If you need more fields, just fill all and save, and you will get "
+"two more on the next page.</p>"
+msgstr ""
+
+#: inc/imce.admin.inc:496
+msgid "Are you sure you want to delete the profile %name?"
+msgstr "Удаление профиля %name"
+
+#: inc/imce.admin.inc:512
+msgid "Profile has been deleted."
+msgstr "Профиль удалён."
+
+#: inc/imce.admin.inc:541
+msgid "Import settings from other profiles"
+msgstr "Импортировать параметры профиля"
+
+#: inc/imce.admin.inc:614
+msgid "Duplicate directory paths are not allowed."
+msgstr ""
+"Дубли в именах и путях для папок "
+"недопустимы"
+
+#: inc/imce.admin.inc:618
+msgid "%dirname is not accepted as a proper directory name."
+msgstr ""
+"%dirname не приняты в качестве "
+"правильного имени папки."
+
+#: inc/imce.js.inc:36; inc/imce.page.inc:130,195
+msgid "Create thumbnails"
+msgstr "Создать миниатюру"
+
+#: inc/imce.page.inc:152
+msgid "Selected files"
+msgstr "Выбранные файлы"
+
+#: inc/imce.page.inc:219
+msgid "Width x Height"
+msgstr "Ширина x Высота"
+
+#: inc/imce.page.inc:238
+msgid "Create a new image"
+msgstr "Создать новое изображение"
+
+#: inc/imce.page.inc:260; js/imce.js:0
+msgid "You are not allowed to operate on more than %num files."
+msgstr ""
+"Вам не разрешено управлять больше чем "
+"с %num файлами."
+
+#: inc/imce.page.inc:267
+msgid "directory (%dir)"
+msgstr "папка (%dir)"
+
+#: inc/imce.page.inc:268
+msgid ""
+"An illegal choice has been detected. Please contact the site "
+"administrator."
+msgstr ""
+"Сделан недопустимый выбор. "
+"Пожалуйста, обратитесь к "
+"администратору сайта."
+
+#: inc/imce.page.inc:317
+msgid "Upload failed."
+msgstr "Невозможно загрузить файл."
+
+#: inc/imce.page.inc:341
+msgid "File deletion successful: %files."
+msgstr "Файл %files удалён."
+
+#: inc/imce.page.inc:358; js/imce.js:0
+msgid ""
+"Please specify dimensions within the allowed range that is from 1x1 to "
+"@dimensions."
+msgstr ""
+"Пожалуйста укажите размер внутри "
+"разрешённого диапозона от 1x1 до @dimensions."
+
+#: inc/imce.page.inc:365
+msgid "File resizing successful: %files."
+msgstr "Размер файл %files изменён."
+
+#: inc/imce.page.inc:445
+msgid "Thumbnail creation (%thumbnames) successful for %filename."
+msgstr "Миниатюра %thumbnames файла %filename создана."
+
+#: inc/imce.page.inc:478; js/imce.js:0
+msgid "%filename is not an image."
+msgstr "Файл %filename не является изображением."
+
+#: inc/imce.page.inc:483
+msgid "Scaling up is not allowed."
+msgstr "Увеличение размера не разрешено."
+
+#: inc/imce.page.inc:498
+msgid "%filename(%dimensions) already exists."
+msgstr ""
+"Миниатюра %dimensions (файл %filename) уже "
+"существует."
+
+#: inc/imce.page.inc:514
+msgid "%filename cannot be resized to %dimensions"
+msgstr ""
+"%filename не может быть масштабирован до "
+"%dimensions"
+
+#: inc/imce.page.inc:720
+msgid "Unable to get a working directory for the file browser!"
+msgstr ""
+"Невозможно получить рабочую папку "
+"браузера файлов!"
+
+#: inc/imce.page.inc:726
+msgid "There is no valid directory specified for the file browser!"
+msgstr ""
+"Не существует каких-либо папок, "
+"указанных браузере файлов!"
+
+#: inc/imce.page.inc:267,861
+msgid "imce"
+msgstr "imce"
+
+#: inc/imce.page.inc:267
+msgid "Illegal choice %choice in !name element."
+msgstr "Неверный выбор %choice в элементе !name."
+
+#: js/imce.js:0
+msgid "File browsing is disabled in directory %dir."
+msgstr "Просмотр файлов запрещен для папки %dir."
+
+#: js/imce.js:0
+msgid "Do you want to refresh the current directory?"
+msgstr "Вы хотите обновить текущую папку?"
+
+#: js/imce.js:0
+msgid "Delete selected files?"
+msgstr "Удалить выбранные файлы?"
+
+#: js/imce.js:0
+msgid "Please select a thumbnail."
+msgstr "Выберите миниатюру."
+
+#: js/imce.js:0
+msgid "You must select at least %num files."
+msgstr "Необходимо выбрать не менее %num файлов."
+
+#: tpl/imce-content.tpl.php:36
+msgid "Tips"
+msgstr "Справка"
+
+#: tpl/imce-content.tpl.php:38
+msgid "Select a file by clicking the corresponding row in the file list."
+msgstr ""
+"Выбрать файл можно нажав мышкой на "
+"соответствующую строку в списке "
+"файлов"
+
+#: tpl/imce-content.tpl.php:39
+msgid ""
+"Ctrl+click to add files to the selection or to remove files from the "
+"selection."
+msgstr ""
+"Выбирать файлы можно удерживая "
+"клавишу CTRL"
+
+#: tpl/imce-content.tpl.php:40
+msgid ""
+"Shift+click to create a range selection. Click to start the range and "
+"shift+click to end it."
+msgstr ""
+"Выбирать файлы можно удерживая "
+"клавишу SHIFT"
+
+#: tpl/imce-content.tpl.php:42
+msgid "Sort the files by clicking a column header of the file list."
+msgstr ""
+"Упорядочить файлы можно нажав на "
+"название колонки в списке файлов"
+
+#: tpl/imce-content.tpl.php:43
+msgid ""
+"Resize the work-spaces by dragging the horizontal or vertical "
+"resize-bars."
+msgstr ""
+"Менять размеры панелей можно "
+"перетаскивая мышкой их "
+"горизонтальную или вертикальную "
+"границу"
+
+#: tpl/imce-content.tpl.php:44
+msgid "Keyboard shortcuts for file list: up, down, left, home, end, ctrl+A."
+msgstr ""
+"В списке файлов можно использовать "
+"клавиши Up, Down, Left, Home, End, Ctrl+A"
+
+#: tpl/imce-content.tpl.php:45
+msgid ""
+"Keyboard shortcuts for selected files: enter/insert, delete, R(esize), "
+"T(humbnails), U(pload)."
+msgstr ""
+"К выделенным файлам можно применять "
+"клавиши Enter/Insert, Delete, R(esize), T(humbnails), U(pload)"
+
+#: tpl/imce-content.tpl.php:46
+msgid ""
+"Keyboard shortcuts for directory list: up, down, left, right, home, "
+"end."
+msgstr ""
+"В списке папок можно использовать "
+"клавиши Up, Down, Left, Right, Home, End"
+
+#: tpl/imce-content.tpl.php:48
+msgid "Limitations"
+msgstr "Ограничения"
+
+#: tpl/imce-content.tpl.php:90
+msgid "!num files using !dirsize of !quota"
+msgstr ""
+"Максимальное пространство: !quota. "
+"Занято: !dirsize. Количество файлов: !num."
+
+#: tpl/imce-content.tpl.php:93
+msgid "unlimited quota"
+msgstr "ограничений нет"
+
+#: inc/imce.admin.inc:113
+msgid "Site maintenance account"
+msgstr "Учетная запись обслуживания сайта"
+
+#: imce.install:14
+msgid "!module has been installed."
+msgstr "Модуль !module установлен."
+
+#: inc/imce.admin.inc:171
+msgid "Delete configuration profile"
+msgstr "Удалить профиль конфигурации"
+
+#: inc/imce.page.inc:295
+msgid "The file has been renamed to %filename."
+msgstr "Файл был переименован в %filename."
+
+#: inc/imce.page.inc:303
+msgid "%filename has been uploaded."
+msgstr "%filename был успешно закачан."
+
+#: inc/imce.page.inc:414
+msgid "%filename is in use by another application."
+msgstr "%filename занят другим приложением."
+
+#: inc/imce.page.inc:641
+msgid ""
+"%filename is %filesize which would exceed your directory quota. You "
+"are currently using %size of %total_quota."
+msgstr ""
+"%filename имеет размер %filesize, что превышает "
+"Вашу общую пользовательскую квоту. В "
+"данный момент Вы используете %size из "
+"%total_quota."
+
+#: inc/imce.page.inc:652
+msgid ""
+"%filename is %filesize which would exceed your total user quota. You "
+"are currently using %size of %total_quota."
+msgstr ""
+"%filename имеет размер %filesize, что превышает "
+"Вашу общую пользовательскую квоту. В "
+"данный момент Вы используете %size из "
+"%total_quota."
+
+#: inc/imce.page.inc:729
+msgid ""
+"You do not have access to any configuration profile to use the file "
+"browser!"
+msgstr ""
+"У Вас нет доступа ни к одной "
+"конфигурации профиля, чтобы "
+"использовать файл-браузер"
+
+#: inc/imce.page.inc:860
+msgid "Directory %dirname is not accessible."
+msgstr "Папка %dirname недоступна"
+
+#: inc/imce.page.inc:861
+msgid "Access to %directory was denied."
+msgstr "Доступ к %directory запрещен."
+
+#: js/imce.js:0
+msgid "You can not perform this operation."
+msgstr "Вы не можете выполнить эту операцию."
+
+#: tpl/imce-content.tpl.php:41
+msgid ""
+"In order to send a file to an external application, double click on "
+"the file row."
+msgstr ""
+"Для того, чтобы отправить файл во "
+"внешнее приложение, кликните дважды "
+"на строке с файлом"
+
+#: imce.module:54
+msgid "Administer IMCE"
+msgstr "Администрировать IMCE"
+
+#: inc/imce.admin.inc:129
+msgid ""
+"For users who have <strong>multiple roles</strong>, the "
+"<strong>weight</strong> property will determine the assigned profile. "
+"Lighter roles that are placed upper will take the precedence. So, an "
+"administrator role should be placed over other roles by having a "
+"smaller weight, ie. -10."
+msgstr ""
+"Для пользователей, имеющих "
+"<strong>множественные роли</strong>, "
+"<strong>вес</strong> загруженного определит "
+"установленный профиль. Лёгкие роли "
+"\"всплывают вверх\" по списку. Учтите, "
+"что роль администратора должна быть "
+"помещена над всеми другим, имея "
+"наименьший \"вес\"."
+
+#: inc/imce.admin.inc:233
+msgid "Define the upload quota per directory."
+msgstr "Определите квоту на закачку для папки"
+
+#: inc/imce.admin.inc:240
+msgid ""
+"This quota measures the size of all user uploaded files in the "
+"database and does not include FTP files. You can either use both "
+"quotations together or safely ignore this by setting the value to 0."
+msgstr ""
+"Эта квота измеряет размер всех файлов, "
+"загруженных пользователем в базе "
+"данных и не включает в себя ftp-файлы. Вы "
+"можете использовать эту настройку, "
+"учитывая эти факторы или же "
+"проигнорировать это, установив "
+"значение в 0."
+
+#: inc/imce.admin.inc:248
+msgid ""
+"Specify the allowed file extensions for uploaded files. Separate "
+"extensions with a space and do not include the leading dot."
+msgstr ""
+"Укажите разрешенные для закачки "
+"расширения файлов. Разделяйте "
+"расширения пробелом и не включайте "
+"предваряющую точку."
+
+#: inc/imce.admin.inc:447
+msgid ""
+"You may create a list of thumbnail options that users can choose "
+"from.\n"
+"<ul>\n"
+"  <li>Use alphanumeric characters as thumbnail names.</li>\n"
+"  <li>Specify dimensions as <strong>WidthxHeight</strong>.</li>\n"
+"  <li>Prefix and suffix are strings that are added to original file "
+"name to create the thumbnail name.</li>\n"
+"  <li>An example thumbnail: Name = <strong>Small</strong>, Dimensions "
+"= <strong>80x80</strong>, Prefix = <strong>small_</strong></li>\n"
+"</ul>\n"
+"<p>Note that users will always be able to create these thumbnails on "
+"file upload no matter what the thumbnail permission is.</p>\n"
+"<p>If you need more fields, just fill all and save, and you will get "
+"two more on the next page.</p>"
+msgstr ""
+
+#: inc/imce.admin.inc:95
+msgid "Disable serving of private files"
+msgstr ""
+"Отключить сохранение приватных "
+"файлов"
+
+#: inc/imce.admin.inc:219
+msgid "Display file browser tab in user profile pages."
+msgstr ""
+"Отображать вкладку файл-браузера на "
+"странице профиля пользователя."
+
+#: js/imce_set_app.js:0; js/imce_set_inline.js:0
+msgid "Insert file"
+msgstr "Вставить файл"
+
+#: inc/imce.admin.inc:66
+msgid ""
+"If you don't use any WYSIWYG editor, this feature will allow you to "
+"add your images or files as <strong>html code into any plain "
+"textarea</strong>. Enter <strong>comma separated textarea IDs</strong> "
+"under which you want to enable a link to IMCE. The * character is a "
+"wildcard. Hint: ID of Body fields in most node types starts with "
+"edit-body*."
+msgstr ""
+
+#: inc/imce.admin.inc:97
+msgid ""
+"IMCE serves all files under private files directory without applying "
+"any access restrictions. This allows anonymous access to any "
+"file(/system/files/filename) unless there is a module restricting "
+"access to the files. Here you can disable this feature."
+msgstr ""
+
+#: js/imce_extras.js:0
+msgid "Change view"
+msgstr ""
+
+#: inc/imce.admin.inc:142
+msgid ""
+"Assign profiles to user roles for available file systems. Your default "
+"file system is %name."
+msgstr ""
+
+#: imce.install:94
+msgid "Migrated IMCE files."
+msgstr ""
+

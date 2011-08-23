@@ -1,0 +1,194 @@
+# Russian translation of Transliteration (7.x-3.0-alpha1)
+# Copyright (c) 2011 by the Russian translation team
+# Generated from files:
+#  transliteration.admin.inc,v 1.10 2010/07/16 13:08:13 smk
+#  transliteration.module,v 1.11 2010/03/15 06:45:57 smk
+#  transliteration.info,v 1.6 2010/03/15 06:45:57 smk
+#  transliteration.install,v 1.6 2009/11/28 12:49:12 smk
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Transliteration (7.x-3.0-alpha1)\n"
+"POT-Creation-Date: 2011-08-21 13:05+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: transliteration.admin.inc:49
+msgid "This action cannot be undone."
+msgstr "Это действие нельзя отменить."
+
+#: transliteration.module:16
+msgid "Settings"
+msgstr "Настройки"
+
+#: transliteration.module:42,22; transliteration.info:0
+msgid "Transliteration"
+msgstr "Транслитерация"
+
+#: transliteration.admin.inc:17
+msgid "Database not supported."
+msgstr "База данных не поддерживается"
+
+#: transliteration.admin.inc:35
+msgid "Original file name"
+msgstr "Оригинальное имя файла"
+
+#: transliteration.admin.inc:51
+msgid "Transliterate"
+msgstr "Транслитерировать"
+
+#: transliteration.admin.inc:30
+msgid "Are you sure you want to transliterate existing file names?"
+msgstr ""
+"Вы уверены, что хотите "
+"транслитерировать существующий файл?"
+
+#: transliteration.admin.inc:102
+msgid ""
+"Not all file names could be converted. The following files could not "
+"be accessed and have been ignored:"
+msgstr ""
+"Не все имена фалов могут быть "
+"конвертированы. К следующим файлам "
+"нет доступы и они проигнорированы:"
+
+#: transliteration.admin.inc:107
+msgid "@filenames have been successfully transliterated."
+msgstr "@filenames было успешно транслитированно."
+
+#: transliteration.admin.inc:42,107
+msgid "1 file name"
+msgid_plural "@count file names"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: transliteration.module:53
+msgid "Lowercase transliterated file names."
+msgstr ""
+"Нижний регистр транслерированных "
+"имен файлов."
+
+#: transliteration.module:23
+msgid "Convert existing file names to US-ASCII."
+msgstr ""
+"Конвертировать существующие имена "
+"файлов в US-ASCII."
+
+#: transliteration.install:24
+msgid ""
+"Transliteration has been installed. <a "
+"href=\"@transliteration-url\">Fix existing file names</a>."
+msgstr ""
+"Модуль транслитерации успешно "
+"установлен. <a "
+"href=\"@transliteration-url\">Исправить "
+"существующие имена файлов</a>."
+
+#: transliteration.info:0
+msgid "Converts non-latin text to US-ASCII and sanitizes file names."
+msgstr ""
+"Конвертирует не латинский текст в "
+"кодировку US-ASCII и адаптирует имена "
+"файлов."
+
+#: transliteration.admin.inc:18
+msgid ""
+"Retroactive transliteration is not supported for the database system "
+"of this Drupal installation. If you think this should be fixed please "
+"<a href=\"@issues-url\">file an issue</a> in the project issue queue."
+msgstr ""
+"Обратная транслитерации не "
+"поддерживается базой данных данной "
+"установки Drupal. Если вы считаете, что "
+"это должно быть исправлено, "
+"пожалуйста <a href=\"@issues-url\">прочтите "
+"файл</a> в папке модуля."
+
+#: transliteration.admin.inc:24
+msgid "Transliteration is not required."
+msgstr "Нет необходимости в транслитерации."
+
+#: transliteration.admin.inc:25
+msgid "There are currently no files names containing non-ASCII characters."
+msgstr ""
+"На данный момент нет названий файлов "
+"содержащих не ASCII символы."
+
+#: transliteration.admin.inc:36
+msgid "Transliterated file name"
+msgstr "Транслитированное имя файла"
+
+#: transliteration.admin.inc:42
+msgid ""
+"The database currently lists @x_filenames containing non-ASCII "
+"characters."
+msgstr ""
+"База данных в данный момент содержит "
+"@x_filenames не-ASCII символов."
+
+#: transliteration.admin.inc:43
+msgid ""
+"This count might be inaccurate, though, since some files may not need "
+"to be renamed. For example, off-site files will never be changed."
+msgstr ""
+
+#: transliteration.admin.inc:46
+msgid "Note: table shows only the first 10 entries."
+msgstr ""
+"Замечание: в таблице показаны первые 10 "
+"записей."
+
+#: transliteration.admin.inc:48
+msgid ""
+"<strong>WARNING:</strong> if you have manually entered image or file "
+"paths in text fields (for example, text areas or WYSIWYG editors), "
+"renaming the files will break these references. Since there is "
+"currently no automated way to also fix referenced files in textual "
+"contents, it is a very good idea to backup the database and %files "
+"directory beforehand. Modules accessing files using their internal "
+"system ids are not affected."
+msgstr ""
+"<strong>ПРЕДУПРЕЖДЕНИЕ:</strong> если вы "
+"вручную ввели путь до изображения или "
+"файла в текстовое поля (например в "
+"текстовое поле или визуальный "
+"редактор), переименование сделает "
+"данные ссылки нерабочими. В дынный "
+"момент нет автоматизированного "
+"решения данной проблемы, поэтому "
+"является хорошей идеей сохранить "
+"копию базы данных и директории %files "
+"заранее. Модули предоставляющие "
+"доступ к файлам с использование "
+"системы ID не будут затронуты"
+
+#: transliteration.module:47
+msgid "Transliterate file names during upload."
+msgstr ""
+"Транслитерировать имена файлов во "
+"время загрузки."
+
+#: transliteration.module:48
+msgid ""
+"Enable to convert file names to US-ASCII character set for "
+"cross-platform compatibility."
+msgstr ""
+"Включить конвертирование названий "
+"файлов в набор символов US-ASCII для "
+"кросс-платформенной совместимости."
+
+#: transliteration.module:55
+msgid ""
+"This is a recommended setting to prevent issues with case-insensitive "
+"file systems. It has no effect if transliteration has been disabled."
+msgstr ""
+"Это рекомендуемая опция для систем с "
+"регистронезависимой файловой "
+"системой. При отключенной "
+"транслитерации не работает."
+

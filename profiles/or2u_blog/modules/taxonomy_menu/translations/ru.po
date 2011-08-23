@@ -1,0 +1,209 @@
+# Russian translation of Taxonomy menu (7.x-1.2)
+# Copyright (c) 2011 by the Russian translation team
+# Generated from files:
+#  taxonomy_menu/taxonomy_menu.module: n/a
+#  taxonomy_menu/taxonomy_menu.info: n/a
+#  taxonomy_menu/taxonomy_menu.batch.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Taxonomy menu (7.x-1.2)\n"
+"POT-Creation-Date: 2011-08-21 13:03+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: taxonomy_menu.module:667
+msgid "Default"
+msgstr "По умолчанию"
+
+#: taxonomy_menu.module:923
+msgid "Options"
+msgstr "Параметры"
+
+#: taxonomy_menu.module:964
+msgid "Hide empty terms"
+msgstr "Скрывать пустые термины"
+
+#: taxonomy_menu.module:990
+msgid "Display descendants"
+msgstr "Показывать наследников"
+
+#: taxonomy_menu.info:0
+msgid "Taxonomy Menu"
+msgstr "Меню таксономии"
+
+#: taxonomy_menu.module:32
+msgid "Taxonomy menu"
+msgstr "Меню таксономии"
+
+#: taxonomy_menu.module:78
+msgid "Select to rebuild the menu on submit."
+msgstr ""
+"Пересоздать меню по нажатию кнопки "
+"сохранить"
+
+#: taxonomy_menu.module:953
+msgid ""
+"Every time a term is added/deleted/modified, the corresponding menu "
+"link will be altered too."
+msgstr ""
+
+#: taxonomy_menu.info:0
+msgid "Adds links to taxonomy terms to a menu."
+msgstr ""
+"Добавить в меню ссылки на термины "
+"таксономии."
+
+#: taxonomy_menu.module:24
+msgid "- Disabled -"
+msgstr ""
+
+#: taxonomy_menu.module:996
+msgid "Use 'all' at the end of URL"
+msgstr "Использовать 'all' в конце URL"
+
+#: taxonomy_menu.batch.inc:51
+msgid "Rebuilding Taxonomy Menu"
+msgstr ""
+
+#: taxonomy_menu.batch.inc:52
+msgid "The menu items have been deleted, and are about to be regenerated."
+msgstr ""
+
+#: taxonomy_menu.batch.inc:53
+msgid "Import progress: Completed @current of @total stages."
+msgstr ""
+
+#: taxonomy_menu.batch.inc:55
+msgid "The Taxonomy Menu rebuild process encountered an error."
+msgstr ""
+
+#: taxonomy_menu.module:66
+msgid "Menu path type"
+msgstr ""
+
+#: taxonomy_menu.module:69
+msgid ""
+"The path will be taxonomy/term/tid if <em>Default</em> has been "
+"selected.<br />The menu path will be passed through "
+"drupal_get_path_alias() function so all aliases will be applied."
+msgstr ""
+
+#: taxonomy_menu.module:81
+msgid ""
+"Rebuild the menu on submit. <strong>Warning</strong>: This will delete "
+"then re-create all of the menu items. Only use this option if you are "
+"experiencing issues like missing menu items or other inconsistencies."
+msgstr ""
+
+#: taxonomy_menu.module:195
+msgid "The Taxonomy Menu has been rebuilt."
+msgstr ""
+
+#: taxonomy_menu.module:199
+msgid "The Taxonomy Menu has been removed."
+msgstr ""
+
+#: taxonomy_menu.module:249
+msgid "The Taxonomy Menu %menu_name has been updated."
+msgstr ""
+
+#: taxonomy_menu.module:296
+msgid "Term %term has been added to taxonomy menu %menu_name."
+msgstr "Термин %term был добавлен в меню %menu_name."
+
+#: taxonomy_menu.module:323
+msgid "Term %term has been updated in taxonomy menu %menu_name."
+msgstr ""
+
+#: taxonomy_menu.module:353
+msgid "Term %term has been deleted from taxonomy menu %menu_name."
+msgstr ""
+
+#: taxonomy_menu.module:628
+msgid "Could not save the menu link for the taxonomy menu."
+msgstr ""
+
+#: taxonomy_menu.module:952
+msgid "Synchronise changes to this vocabulary"
+msgstr ""
+"Синхронизировать меню с изменениями в "
+"этом словаре"
+
+#: taxonomy_menu.module:958
+msgid "Display number of items"
+msgstr "Показывать количество элементов"
+
+#: taxonomy_menu.module:959
+msgid ""
+"Display the number of items per taxonomy terms. Will not show up for "
+"vocabulary menu items."
+msgstr ""
+
+#: taxonomy_menu.module:965
+msgid "Hide terms with no items attached to them."
+msgstr ""
+
+#: taxonomy_menu.module:970
+msgid "Add item for vocabulary"
+msgstr "Добавить название словаря"
+
+#: taxonomy_menu.module:971
+msgid ""
+"Shows the vocabulary name as the top level menu item of the taxonomy "
+"menu."
+msgstr ""
+
+#: taxonomy_menu.module:976
+msgid "Auto expand menu items"
+msgstr "Разворачивать пункты"
+
+#: taxonomy_menu.module:977
+msgid "Automatically show all menu items as expanded."
+msgstr ""
+
+#: taxonomy_menu.module:998
+msgid ""
+"This changes tid+tid+tid to \"All\" in term when <em>Display "
+"descendants</em> has been selected.<br />Only used if <em>Menu path "
+"type</em> is \"Default path\".<br />Works with default taxonomy page."
+msgstr ""
+
+#: taxonomy_menu.module:1041
+msgid "Menu and taxonomy name mismatch: @title != @name"
+msgstr ""
+
+#: taxonomy_menu.module:991
+msgid ""
+"Changes the default path to taxonomy/term/tid+tid+tid for all terms "
+"thave have child terms."
+msgstr ""
+
+#: taxonomy_menu.module:57
+msgid "Menu location"
+msgstr "Расположение меню"
+
+#: taxonomy_menu.module:60
+msgid "The menu and parent under which to insert taxonomy menu items."
+msgstr ""
+"Меню и родительский пункт, к которым "
+"добавятся пункты меню таксономии."
+
+#: taxonomy_menu.module:983
+msgid "Custom name for vocabulary item"
+msgstr "Пользовательское название словаря"
+
+#: taxonomy_menu.module:984
+msgid ""
+"Changes the name of the vocabulary item (if enabled above). Leave "
+"blank to use the name of the vocabulary."
+msgstr ""
+
+#: taxonomy_menu.batch.inc:87
+msgid "The Taxonomy Menu has been updated."
+msgstr ""
+

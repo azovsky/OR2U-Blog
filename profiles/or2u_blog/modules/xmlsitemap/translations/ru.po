@@ -1,0 +1,1137 @@
+# Russian translation of XML sitemap (7.x-2.0-beta3)
+# Copyright (c) 2011 by the Russian translation team
+# Generated from files:
+#  xmlsitemap/xmlsitemap.module: n/a
+#  xmlsitemap/xmlsitemap.admin.inc: n/a
+#  xmlsitemap/xmlsitemap_custom/xmlsitemap_custom.admin.inc: n/a
+#  xmlsitemap/xmlsitemap_node/xmlsitemap_node.module: n/a
+#  xmlsitemap/xmlsitemap_i18n/xmlsitemap_i18n.module: n/a
+#  xmlsitemap/xmlsitemap.install: n/a
+#  xmlsitemap/xmlsitemap.pages.inc: n/a
+#  xmlsitemap/xmlsitemap.xmlsitemap.inc: n/a
+#  xmlsitemap/xmlsitemap_taxonomy/xmlsitemap_taxonomy.module: n/a
+#  xmlsitemap/xmlsitemap_custom/xmlsitemap_custom.module: n/a
+#  xmlsitemap/xmlsitemap_menu/xmlsitemap_menu.module: n/a
+#  xmlsitemap/xmlsitemap_user/xmlsitemap_user.module: n/a
+#  xmlsitemap/xmlsitemap_engines/xmlsitemap_engines.module: n/a
+#  xmlsitemap/xmlsitemap.generate.inc: n/a
+#  xmlsitemap/xmlsitemap.info: n/a
+#  xmlsitemap/xmlsitemap_custom/xmlsitemap_custom.info: n/a
+#  xmlsitemap/xmlsitemap_engines/xmlsitemap_engines.info: n/a
+#  xmlsitemap/xmlsitemap_i18n/xmlsitemap_i18n.info: n/a
+#  xmlsitemap/xmlsitemap_menu/xmlsitemap_menu.info: n/a
+#  xmlsitemap/xmlsitemap_modal/xmlsitemap_modal.info: n/a
+#  xmlsitemap/xmlsitemap_node/xmlsitemap_node.info: n/a
+#  xmlsitemap/xmlsitemap_taxonomy/xmlsitemap_taxonomy.info: n/a
+#  xmlsitemap/xmlsitemap_user/xmlsitemap_user.info: n/a
+#  xmlsitemap/xmlsitemap_user/xmlsitemap_user.install: n/a
+#  xmlsitemap/xmlsitemap_engines/xmlsitemap_engines.admin.inc: n/a
+#  xmlsitemap/xmlsitemap.js: n/a
+#  xmlsitemap/xmlsitemap.inc: n/a
+#  xmlsitemap/xmlsitemap_engines/xmlsitemap_engines.install: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: XML sitemap (7.x-2.0-beta3)\n"
+"POT-Creation-Date: 2011-08-21 13:07+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: xmlsitemap.module:1516,1453
+msgid "Home"
+msgstr "Главная"
+
+#: xmlsitemap.admin.inc:53,66
+msgid "Pages"
+msgstr "Страницы"
+
+#: xmlsitemap.module:101
+msgid "title"
+msgstr "Обращение"
+
+#: xmlsitemap.admin.inc:89,246,96,263; xmlsitemap_custom/xmlsitemap_custom.admin.inc:41,185,46,181
+msgid "Delete"
+msgstr "Удалить"
+
+#: xmlsitemap.admin.inc:54,67; xmlsitemap_custom/xmlsitemap_custom.admin.inc:14,22
+msgid "Operations"
+msgstr "Действия"
+
+#: xmlsitemap_node/xmlsitemap_node.module:7,8
+msgid "Content"
+msgstr "Содержимое"
+
+#: xmlsitemap.admin.inc:524,537
+msgid "Totals"
+msgstr "Всего"
+
+#: xmlsitemap.module:140,119
+msgid "List"
+msgstr "Список"
+
+#: xmlsitemap.admin.inc:190,247,462,654,208,264,475,650; xmlsitemap_custom/xmlsitemap_custom.admin.inc:125,186,127,182
+msgid "Cancel"
+msgstr "Отменить"
+
+#: xmlsitemap_custom/xmlsitemap_custom.admin.inc:13,110,21,112; xmlsitemap_i18n/xmlsitemap_i18n.module:8,40
+msgid "Language"
+msgstr "Язык"
+
+#: xmlsitemap.install:25,24
+msgid "Disabled"
+msgstr "Отключено"
+
+#: xmlsitemap.admin.inc:517,746,530,737; xmlsitemap.pages.inc:147; xmlsitemap.xmlsitemap.inc:232,251; xmlsitemap_custom/xmlsitemap_custom.admin.inc:11,95,19,97
+msgid "Priority"
+msgstr "Приоритет"
+
+#: xmlsitemap.admin.inc:51,64
+msgid "Last updated"
+msgstr "Обновлено"
+
+#: xmlsitemap_taxonomy/xmlsitemap_taxonomy.module:8
+msgid "Taxonomy"
+msgstr "Таксономия"
+
+#: xmlsitemap.admin.inc:88,95; xmlsitemap_custom/xmlsitemap_custom.admin.inc:40,45
+msgid "Edit"
+msgstr "Изменить"
+
+#: xmlsitemap.admin.inc:52,65
+msgid "Links"
+msgstr "Ссылка"
+
+#: xmlsitemap_custom/xmlsitemap_custom.admin.inc:35,103,40,105
+msgid "None"
+msgstr "Ничего"
+
+#: xmlsitemap_custom/xmlsitemap_custom.admin.inc:184,180
+msgid "This action cannot be undone."
+msgstr "Это действие нельзя отменить."
+
+#: xmlsitemap.module:172,151
+msgid "Settings"
+msgstr "Настройки"
+
+#: xmlsitemap.admin.inc:185,651,204,647; xmlsitemap_custom/xmlsitemap_custom.admin.inc:121,123
+msgid "Save"
+msgstr "Сохранить"
+
+#: xmlsitemap.module:1453,1390
+msgid "Default"
+msgstr "По умолчанию"
+
+#: xmlsitemap.admin.inc:37,50
+msgid "Update"
+msgstr "Обновить"
+
+#: xmlsitemap.admin.inc:45,58
+msgid "URL"
+msgstr "Адрес ссылки"
+
+#: xmlsitemap.admin.inc:520,533
+msgid "Visible"
+msgstr "Видимый"
+
+#: xmlsitemap_custom/xmlsitemap_custom.module:60,8,62
+msgid "Custom links"
+msgstr "Пользовательские ссылки"
+
+#: xmlsitemap_custom/xmlsitemap_custom.admin.inc:57,54; xmlsitemap_custom/xmlsitemap_custom.module:15
+msgid "Add custom link"
+msgstr "Добавить пользовательскую ссылку"
+
+#: xmlsitemap_custom/xmlsitemap_custom.module:24
+msgid "Edit custom link"
+msgstr ""
+
+#: xmlsitemap_menu/xmlsitemap_menu.module:33,9
+msgid "Menu"
+msgstr "Меню"
+
+#: xmlsitemap.admin.inc:286,303
+msgid "Advanced settings"
+msgstr "Расширенные настройки"
+
+#: xmlsitemap.xmlsitemap.inc:275,294
+msgid "Updated"
+msgstr "Обновлено"
+
+#: xmlsitemap_user/xmlsitemap_user.module:7,9,16
+msgid "User"
+msgstr "Пользователь"
+
+#: xmlsitemap_node/xmlsitemap_node.module:8,9
+msgid "Content type"
+msgstr "Тип материалов"
+
+#: xmlsitemap.admin.inc:26,38
+msgid "Update options"
+msgstr "Изменить настройки"
+
+#: xmlsitemap_engines/xmlsitemap_engines.module:240,227
+msgid "Submitted"
+msgstr "Сохранено"
+
+#: xmlsitemap.admin.inc:80,87
+msgid "Never"
+msgstr "Никогда"
+
+#: xmlsitemap_menu/xmlsitemap_menu.module:11,8
+msgid "Menu link"
+msgstr "Ссылка меню"
+
+#: xmlsitemap_custom/xmlsitemap_custom.admin.inc:10,18
+msgid "Location"
+msgstr "Местоположение"
+
+#: xmlsitemap_taxonomy/xmlsitemap_taxonomy.module:7,9
+msgid "Vocabulary"
+msgstr "Словарь"
+
+#: xmlsitemap.admin.inc:268,285
+msgid "1 day"
+msgstr "1 день"
+
+#: xmlsitemap.admin.inc:339,355
+msgid "Medium"
+msgstr "Среднее значение"
+
+#: xmlsitemap_user/xmlsitemap_user.module:8
+msgid "Users"
+msgstr "Пользователи"
+
+#: xmlsitemap_engines/xmlsitemap_engines.module:207,194
+msgid "Google"
+msgstr "Google"
+
+#: xmlsitemap.admin.inc:340,356
+msgid "Long"
+msgstr "Полное значение"
+
+#: xmlsitemap.admin.inc:338,354
+msgid "Short"
+msgstr "Краткое значение"
+
+#: xmlsitemap.admin.inc:849,838
+msgid "Included"
+msgstr "Включено"
+
+#: xmlsitemap.admin.inc:516,601,730,529,595,721
+msgid "Inclusion"
+msgstr "Включение"
+
+#: xmlsitemap.admin.inc:850,839
+msgid "Excluded"
+msgstr "Исключено"
+
+#: xmlsitemap.generate.inc:54,341,62,387; xmlsitemap_custom/xmlsitemap_custom.admin.inc:194,190; xmlsitemap_engines/xmlsitemap_engines.module:147,134
+msgid "xmlsitemap"
+msgstr "xmlsitemap"
+
+#: xmlsitemap.module:797
+msgid "file system"
+msgstr "файловая система"
+
+#: xmlsitemap_custom/xmlsitemap_custom.admin.inc:112,114
+msgid "Language neutral"
+msgstr "Нейтральный по отношению к языку"
+
+#: xmlsitemap.admin.inc:518,531
+msgid "Available"
+msgstr "Доступен"
+
+#: xmlsitemap.xmlsitemap.inc:214,233
+msgid "Frontpage"
+msgstr "Главная страница"
+
+#: xmlsitemap.install:48,47
+msgid "Writable"
+msgstr ""
+
+#: xmlsitemap.pages.inc:143
+msgid "Last modification date"
+msgstr "Дата последнего изменения"
+
+#: xmlsitemap.admin.inc:806,795
+msgid "1.0"
+msgstr "1.0"
+
+#: xmlsitemap.admin.inc:807,796
+msgid "0.9"
+msgstr "0.9"
+
+#: xmlsitemap.admin.inc:808,797
+msgid "0.8"
+msgstr "0.8"
+
+#: xmlsitemap.admin.inc:809,798
+msgid "0.7"
+msgstr "0.7"
+
+#: xmlsitemap.admin.inc:810,799
+msgid "0.6"
+msgstr "0.6"
+
+#: xmlsitemap.admin.inc:811,800
+msgid "0.5"
+msgstr "0.5"
+
+#: xmlsitemap.admin.inc:812,801
+msgid "0.4"
+msgstr "0.4"
+
+#: xmlsitemap.admin.inc:813,802
+msgid "0.3"
+msgstr "0.3"
+
+#: xmlsitemap.admin.inc:814,803
+msgid "0.2"
+msgstr "0.2"
+
+#: xmlsitemap.admin.inc:815,804
+msgid "0.1"
+msgstr "0.1"
+
+#: xmlsitemap.admin.inc:816,805
+msgid "0.0"
+msgstr "0.0"
+
+#: xmlsitemap.admin.inc:572,691,687; xmlsitemap.module:132,111; xmlsitemap.install:38,113,37,112; xmlsitemap.info:0; xmlsitemap_custom/xmlsitemap_custom.info:0; xmlsitemap_engines/xmlsitemap_engines.info:0; xmlsitemap_i18n/xmlsitemap_i18n.info:0; xmlsitemap_menu/xmlsitemap_menu.info:0; xmlsitemap_modal/xmlsitemap_modal.info:0; xmlsitemap_node/xmlsitemap_node.module:106,134; xmlsitemap_node/xmlsitemap_node.info:0; xmlsitemap_taxonomy/xmlsitemap_taxonomy.module:135; xmlsitemap_taxonomy/xmlsitemap_taxonomy.info:0; xmlsitemap_user/xmlsitemap_user.module:86; xmlsitemap_user/xmlsitemap_user.info:0
+msgid "XML sitemap"
+msgstr "XML sitemap"
+
+#: xmlsitemap_engines/xmlsitemap_engines.info:0
+msgid "XML sitemap engines"
+msgstr ""
+
+#: xmlsitemap_engines/xmlsitemap_engines.info:0
+msgid "Submit the sitemap to search engines."
+msgstr ""
+"Отправить карту сайта в поисковые "
+"системы"
+
+#: xmlsitemap_node/xmlsitemap_node.info:0
+msgid "XML sitemap node"
+msgstr "XML sitemap node"
+
+#: xmlsitemap_taxonomy/xmlsitemap_taxonomy.info:0
+msgid "XML sitemap taxonomy"
+msgstr "XML sitemap таксономия"
+
+#: xmlsitemap_taxonomy/xmlsitemap_taxonomy.info:0
+msgid "Add taxonomy term links to the sitemap."
+msgstr ""
+"Добавление в карту сайта ссылок на "
+"термины таксономии"
+
+#: xmlsitemap.admin.inc:607,601
+msgid "Default priority"
+msgstr "Приоритет по умолчанию"
+
+#: xmlsitemap_user/xmlsitemap_user.install:18; xmlsitemap_user/xmlsitemap_user.info:0
+msgid "XML sitemap user"
+msgstr "пользователь XML sitemap"
+
+#: xmlsitemap.admin.inc:519,532
+msgid "Indexed"
+msgstr "Проиндексировано"
+
+#: xmlsitemap.admin.inc:266,283
+msgid "Minimum sitemap lifetime"
+msgstr "Минимальное время жизни карты сайта"
+
+#: xmlsitemap.admin.inc:267,284
+msgid "No minimum"
+msgstr "Не установлено"
+
+#: xmlsitemap.admin.inc:299,317
+msgid "Number of links in each sitemap page"
+msgstr ""
+"Количество ссылок на каждой странице "
+"карты сайта"
+
+#: xmlsitemap.admin.inc:307,325
+msgid "Maximum number of sitemap links to process at once"
+msgstr ""
+"Максимальное число ссылок в карте "
+"сайта, обрабатываемое за раз"
+
+#: xmlsitemap.admin.inc:310,328
+msgid ""
+"If you have problems running cron or rebuilding the sitemap, you may "
+"want to lower this value."
+msgstr ""
+"Если у вас возникли проблемы при "
+"запуске cron или обновлении карты сайта, "
+"вы можете уменьшить это значение."
+
+#: xmlsitemap.admin.inc:318,334
+msgid "Sitemap cache directory"
+msgstr "Директория кэша для карты сайта"
+
+#: xmlsitemap.pages.inc:146; xmlsitemap.xmlsitemap.inc:238,257; xmlsitemap_custom/xmlsitemap_custom.admin.inc:12,102,20,104
+msgid "Change frequency"
+msgstr "Изменить частоту обновления"
+
+#: xmlsitemap.admin.inc:401,414
+msgid ""
+"The sitemap page link count of @size will create more than 1,000 "
+"sitemap pages. Please increase the link count."
+msgstr ""
+
+#: xmlsitemap.admin.inc:407,420
+msgid "Invalid base URL."
+msgstr "Неверный базовый URL."
+
+#: xmlsitemap.admin.inc:429,442
+msgid "Your sitemap is up to date and does not need to be rebuilt."
+msgstr ""
+"Ваша карта сайта находится в "
+"актуальном состоянии и не требует "
+"обновления."
+
+#: xmlsitemap.admin.inc:461,474
+msgid "Rebuild sitemap"
+msgstr "Обновить карту сайта"
+
+#: xmlsitemap.admin.inc:749,740; xmlsitemap_custom/xmlsitemap_custom.admin.inc:98,100
+msgid "The priority of this URL relative to other URLs on your site."
+msgstr ""
+"Приоритет этого URL относительно "
+"других страниц сайта."
+
+#: xmlsitemap.admin.inc:821,855,810,844
+msgid "Default (@value)"
+msgstr "По умолчанию (@value)"
+
+#: xmlsitemap.generate.inc:362,408
+msgid "Rebuilding Sitemap"
+msgstr ""
+
+#: xmlsitemap.xmlsitemap.inc:42,47
+msgid "Could not open file @file for writing."
+msgstr ""
+
+#: xmlsitemap.xmlsitemap.inc:157,162
+msgid "Unknown error occurred while writing to file @file."
+msgstr ""
+
+#: xmlsitemap.pages.inc:138
+msgid "Sitemap file"
+msgstr "Файл карты сайта"
+
+#: xmlsitemap.pages.inc:139
+msgid ""
+"Generated by the <a href=\"@link-xmlsitemap\">Drupal XML sitemap "
+"module</a>."
+msgstr ""
+
+#: xmlsitemap.pages.inc:140
+msgid "Number of sitemaps in this index"
+msgstr ""
+
+#: xmlsitemap.pages.inc:141
+msgid "Click on the table headers to change sorting."
+msgstr ""
+"Кликните по заголовку, для изменения "
+"способа сортировки"
+
+#: xmlsitemap.pages.inc:142
+msgid "Sitemap URL"
+msgstr "Адрес карты сайта"
+
+#: xmlsitemap.pages.inc:144
+msgid "Number of URLs in this sitemap"
+msgstr "Количество адресов в этой карте сайта"
+
+#: xmlsitemap.pages.inc:145
+msgid "URL location"
+msgstr ""
+
+#: xmlsitemap.module:585,581
+msgid "Invalid sitemap link priority %priority.<br />@link"
+msgstr ""
+
+#: xmlsitemap.module:588,584
+msgid ""
+"Negative changecount value. Please report this to <a "
+"href=\"@516928\">@516928</a>.<br />@link"
+msgstr ""
+
+#: xmlsitemap.module:100
+msgid "administer xmlsitemap"
+msgstr "управление xmlsitemap"
+
+#: xmlsitemap.module:192,171
+msgid "Rebuild the site map."
+msgstr "Перестроить карту сайта"
+
+#: xmlsitemap.install:47,46
+msgid "XML sitemap cache directory"
+msgstr ""
+
+#: xmlsitemap.install:114,113
+msgid "Cached files have not been generated yet."
+msgstr "Кэшированные файлы ещё не созданы."
+
+#: xmlsitemap.install:119
+msgid ""
+"The XML sitemap data is out of sync and needs to be <a "
+"href=\"@link-rebuild\">completely rebuilt<a>."
+msgstr ""
+
+#: xmlsitemap.install:133,132
+msgid ""
+"The XML cached files are out of date and need to be regenerated. You "
+"can <a href=\"@link-cron\">run cron manually</a> to regenerate the "
+"sitemap files."
+msgstr ""
+"Кэшированные XML-файлы устарели, их "
+"трнебуется обновить. Можно <a "
+"href=\"@link-cron\">запустить cron</a> вручную для "
+"обновления файлов карты сайта."
+
+#: xmlsitemap_custom/xmlsitemap_custom.admin.inc:87,89
+msgid "Path to link"
+msgstr ""
+
+#: xmlsitemap_custom/xmlsitemap_custom.admin.inc:150,152
+msgid "There is already an existing link in the sitemap with the path %link."
+msgstr ""
+
+#: xmlsitemap_custom/xmlsitemap_custom.admin.inc:155,157
+msgid ""
+"The custom link %link is either invalid or it cannot be accessed by "
+"anonymous users."
+msgstr ""
+
+#: xmlsitemap_custom/xmlsitemap_custom.admin.inc:162,164
+msgid "The custom link for %loc was saved."
+msgstr ""
+
+#: xmlsitemap_custom/xmlsitemap_custom.admin.inc:182,178
+msgid "Are you sure you want to delete the custom link for %loc?"
+msgstr ""
+
+#: xmlsitemap_custom/xmlsitemap_custom.admin.inc:193,194,189,190
+msgid "The custom link for %loc has been deleted."
+msgstr ""
+
+#: xmlsitemap_custom/xmlsitemap_custom.info:0
+msgid "XML sitemap custom"
+msgstr ""
+
+#: xmlsitemap_custom/xmlsitemap_custom.info:0
+msgid "Adds user configurable links to the sitemap."
+msgstr ""
+"Добавление в карту сайта "
+"пользовательских ссылок."
+
+#: xmlsitemap_engines/xmlsitemap_engines.admin.inc:22
+msgid "Submit the sitemap to the following engines"
+msgstr ""
+"Отправлять карту сайта на следующие "
+"поисковики"
+
+#: xmlsitemap_engines/xmlsitemap_engines.admin.inc:28
+msgid "Do not submit more often than every"
+msgstr "Не отправлять чаще чем раз в"
+
+#: xmlsitemap_engines/xmlsitemap_engines.admin.inc:34
+msgid "Only submit if the sitemap has been updated since the last submission."
+msgstr ""
+"Отправлять только если карта сайта "
+"была изменена с последней отправки."
+
+#: xmlsitemap_engines/xmlsitemap_engines.admin.inc:39
+msgid "Custom submission URLs"
+msgstr "Пользовательские ссылки для отправки"
+
+#: xmlsitemap_engines/xmlsitemap_engines.module:24,11
+msgid ""
+"In order to verify site ownership with the search engines listed "
+"below, it is highly recommended to download and install the <a "
+"href=\"@site-verify\">Site verification module</a>."
+msgstr ""
+"Для того, чтобы подтвердить "
+"перечисленным поисковым системам, что "
+"вы являетесь владельцем сайта, "
+"настоятельно рекомендуется скачать и "
+"установить <a href=\"@site-verify\">модуль Site "
+"verification</a>."
+
+#: xmlsitemap_engines/xmlsitemap_engines.module:147,134
+msgid "Submitted the sitemap to %url and received response @code."
+msgstr ""
+
+#: xmlsitemap_engines/xmlsitemap_engines.module:37,24
+msgid "Search Engines"
+msgstr "Поисковые системы"
+
+#: xmlsitemap_menu/xmlsitemap_menu.info:0
+msgid "XML sitemap menu"
+msgstr ""
+
+#: xmlsitemap_menu/xmlsitemap_menu.info:0
+msgid "Adds menu item links to the sitemap."
+msgstr ""
+"Добавление в карту сайта ссылок на "
+"элементы меню."
+
+#: xmlsitemap_node/xmlsitemap_node.info:0
+msgid "Adds content links to the sitemap."
+msgstr ""
+"Добавление в карту сайта ссылок на "
+"материалы."
+
+#: xmlsitemap.admin.inc:300,318
+msgid "Automatic (recommended)"
+msgstr "Автоматически (рекомендуется)"
+
+#: xmlsitemap.admin.inc:828,817
+msgid "(highest)"
+msgstr "(высокий)"
+
+#: xmlsitemap.admin.inc:829,818
+msgid "(normal)"
+msgstr "(нормальный)"
+
+#: xmlsitemap.admin.inc:830,819
+msgid "(lowest)"
+msgstr "(низкий)"
+
+#: xmlsitemap.install:91,90
+msgid "Please increase the number of links per page."
+msgstr ""
+
+#: xmlsitemap.install:74,73
+msgid "XML sitemap link count"
+msgstr ""
+
+#: xmlsitemap.install:76,75
+msgid ""
+"You have exceeded the number of links that your sitemap can contain "
+"(@num)."
+msgstr ""
+
+#: xmlsitemap.install:85,84
+msgid "XML sitemap page count"
+msgstr ""
+
+#: xmlsitemap.info:0
+msgid ""
+"Creates an XML sitemap conforming to the <a "
+"href=\"http://sitemaps.org/\">sitemaps.org protocol</a>."
+msgstr ""
+"Создание XML карты сайта в соответствии "
+"с <a href=\"http://sitemaps.org/\">проколом sitemaps.org</a>."
+
+#: xmlsitemap_i18n/xmlsitemap_i18n.info:0
+msgid "XML sitemap internationalization"
+msgstr ""
+
+#: xmlsitemap.admin.inc:273,290
+msgid "Include a stylesheet in the sitemaps for humans."
+msgstr ""
+"Использовать стили для лучшей "
+"читаемости карты сайта."
+
+#: xmlsitemap.admin.inc:433,446
+msgid ""
+"A rebuild is not necessary. If you are just wanting to regenerate the "
+"XML sitemap files, you can <a href=\"@link-cron\">run cron "
+"manually</a>."
+msgstr ""
+
+#: xmlsitemap.admin.inc:452,465
+msgid "Save and restore any custom inclusion and priority links."
+msgstr ""
+"Сохранить и восстановить любые "
+"текущие включения и приоритет ссылок."
+
+#: xmlsitemap.module:102,81
+msgid ""
+"This action rebuilds your site's XML sitemap and regenerates the "
+"cached files, and may be a lengthy process. If you just installed XML "
+"sitemap, this can be helpful to import all your site's content into "
+"the sitemap. Otherwise, this should only be used in emergencies."
+msgstr ""
+"Эта процедура обновляет XML карту "
+"вашего сайта и кэшированные файлы, что "
+"может потребовать времени. Если вы "
+"только что установили модуль XML sitemap, "
+"процедура позволяет импортировать "
+"все материалы сайта на карту сайта. В "
+"противном случае процедура должна "
+"использоваться только по особым "
+"случаям."
+
+#: xmlsitemap_i18n/xmlsitemap_i18n.info:0
+msgid "Enables multilingual XML sitemaps."
+msgstr "Включает многоязычные XML карты сайта."
+
+#: xmlsitemap.js:0
+msgid "Inclusion: @value"
+msgstr ""
+
+#: xmlsitemap.js:0
+msgid "Priority: @value"
+msgstr "Приоритет: @value"
+
+#: xmlsitemap.install:39,38
+msgid "Existing sitemap.xml file found."
+msgstr ""
+
+#: xmlsitemap.install:41,40
+msgid ""
+"The XML sitemap module cannot display its XML output if there is an "
+"existing sitemap.xml file in your website root."
+msgstr ""
+
+#: xmlsitemap_engines/xmlsitemap_engines.module:212,199
+msgid "Bing"
+msgstr "Bing"
+
+#: xmlsitemap.admin.inc:597,591
+msgid ""
+"Changing these type settings will affect any items of this type that "
+"have either inclusion or priority set to default."
+msgstr ""
+"Изменение этой настройки повлияет на "
+"все материалы этого типа, у которых "
+"включено добавление в карту сайта или "
+"установлен приоритет по умолчанию."
+
+#: xmlsitemap.generate.inc:415,469
+msgid "Purging links."
+msgstr ""
+
+#: xmlsitemap.module:1253,1192
+msgid ""
+"XML sitemap settings have been modified and the files should be "
+"regenerated. You can <a href=\"@run-cron\">run cron manually</a> to "
+"regenerate the cached files."
+msgstr ""
+
+#: xmlsitemap.install:51,63,50,62
+msgid "Not found or not writable"
+msgstr ""
+
+#: xmlsitemap_custom/xmlsitemap_custom.admin.inc:105,107
+msgid ""
+"How frequently the page is likely to change. This value provides "
+"general information to search engines and may not correlate exactly to "
+"how often they crawl the page."
+msgstr ""
+
+#: xmlsitemap.admin.inc:314; xmlsitemap.module:797
+msgid "The directory %directory does not exist or is not writable."
+msgstr ""
+"Каталог %directory не существует или не "
+"доступен для записи."
+
+#: xmlsitemap.admin.inc:322,338
+msgid ""
+"Subdirectory where the sitemap data will be stored. This folder "
+"<strong>must not be shared</strong> with any other Drupal site or "
+"install using XML sitemap."
+msgstr ""
+"Поддиректория, где будет храниться "
+"карта сайта. Эта папка <strong>должна быть "
+"общей</strong> для всех других сайтов или "
+"установок Drupal, использующих XML карту "
+"сайта."
+
+#: xmlsitemap.admin.inc:443,456
+msgid "Select which link types you would like to rebuild"
+msgstr ""
+"Выберите, ссылки какого типа вы хотите "
+"обновить"
+
+#: xmlsitemap.admin.inc:444,457
+msgid ""
+"If no link types are selected, the sitemap files will just be "
+"regenerated."
+msgstr ""
+"Если не выбрано ни одного типа ссылок, "
+"файлы карты сайта будут просто "
+"обновлены."
+
+#: xmlsitemap.generate.inc:459,521
+msgid "Now processing %entity @last_id (@progress of @count)."
+msgstr ""
+
+#: xmlsitemap.module:122,101
+msgid "Administer XML sitemap settings."
+msgstr ""
+
+#: xmlsitemap.inc:80,235
+msgid ""
+"One or more problems were detected with your XML sitemap "
+"configuration: !messages"
+msgstr ""
+"Во время настройки XML sitemap были "
+"обнаружены следующие проблемы: !messages"
+
+#: xmlsitemap.inc:82,237
+msgid ""
+"Check the <a href=\"@status-report\">status report</a> for more "
+"information."
+msgstr ""
+"Ищите дополнительную информацию на <a "
+"href=\"@status-report\">странице отчетов</a>."
+
+#: xmlsitemap_node/xmlsitemap_node.module:107; xmlsitemap_taxonomy/xmlsitemap_taxonomy.module:136; xmlsitemap_user/xmlsitemap_user.module:87
+msgid "XML sitemap module element"
+msgstr ""
+
+#: xmlsitemap.admin.inc:636,632
+msgid "@bundle XML sitemap settings"
+msgstr ""
+
+#: xmlsitemap.admin.inc:712,703
+msgid ""
+"The default XML sitemap settings for this @bundle can be changed <a "
+"href=\"@link-type\">here</a>."
+msgstr ""
+"Настройки по умолчанию XML-карты сайта "
+"для этого @bundle могут быть изменены <a "
+"href=\"@link-type\">здесь</a>."
+
+#: xmlsitemap.install:118
+msgid ""
+"The XML sitemap data is out of sync and needs to be <a "
+"href=\"@link-rebuild\">completely rebuilt</a>."
+msgstr ""
+
+#: xmlsitemap_node/xmlsitemap_node.module:135
+msgid "XML sitemap module form"
+msgstr ""
+
+#: xmlsitemap.admin.inc:336,352
+msgid "Last modification date format"
+msgstr "Формат даты последнего изменения"
+
+#: xmlsitemap.admin.inc:349,365
+msgid "Enable developer mode to expose additional settings."
+msgstr ""
+"Включить режим разработки для "
+"дополнительных настроек."
+
+#: xmlsitemap.install:87,86
+msgid "You have exceeded the number of sitemap pages (@number)."
+msgstr ""
+
+#: xmlsitemap.install:98,97
+msgid "XML sitemap maximum file size"
+msgstr "Максимальный размер файла XML sitemap"
+
+#: xmlsitemap.install:102,101
+msgid ""
+"You have exceeded the maximum sitemap file size of @size. If possible, "
+"decrease the number of links per sitemap page."
+msgstr ""
+
+#: xmlsitemap_custom/xmlsitemap_custom.admin.inc:57,54
+msgid "No custom links available."
+msgstr "Нет пользовательских ссылок."
+
+#: xmlsitemap_engines/xmlsitemap_engines.admin.inc:40
+msgid ""
+"Enter one URL per line. The token [sitemap] will be replaced with the "
+"URL to your sitemap. For example: %example-before would become "
+"%example-after."
+msgstr ""
+"Вводите по одной ссылке на строку. "
+"Маркер [sitemap] будет заменён на URL Вашей "
+"карты сайта. Например: %example-before "
+"превратится в %example-after."
+
+#: xmlsitemap_engines/xmlsitemap_engines.admin.inc:61
+msgid "Invalid URL %url."
+msgstr ""
+
+#: xmlsitemap_user/xmlsitemap_user.install:19
+msgid "Anonymous access to user profiles"
+msgstr ""
+
+#: xmlsitemap_user/xmlsitemap_user.install:20
+msgid ""
+"In order to list user profile links in the sitemap, the anonymous user "
+"must have the <a href=\"@perm-link\"><em>access user profiles</em> "
+"permission</a>."
+msgstr ""
+
+#: xmlsitemap_user/xmlsitemap_user.info:0
+msgid "Adds user profile links to the sitemap."
+msgstr ""
+"Добавление в карту сайта ссылок на "
+"профили пользователей."
+
+#: xmlsitemap.module:145
+msgid "Add new XML sitemap"
+msgstr "Добавить новую XML sitemap"
+
+#: xmlsitemap.admin.inc:100,103
+msgid "None (sitemap locked)"
+msgstr ""
+
+#: xmlsitemap.admin.inc:108,112,118
+msgid "No XML sitemaps available."
+msgstr ""
+
+#: xmlsitemap.admin.inc:121,140
+msgid "No sitemaps selected."
+msgstr ""
+
+#: xmlsitemap.admin.inc:204,222
+msgid "There are currently no XML sitemap contexts available."
+msgstr ""
+"На данный момент контексты XML sitemap "
+"отсутствуют."
+
+#: xmlsitemap.admin.inc:216,234
+msgid "A sitemap with the same context already exists."
+msgstr ""
+
+#: xmlsitemap.admin.inc:224,241
+msgid "The sitemap has been saved."
+msgstr ""
+
+#: xmlsitemap.admin.inc:253,270
+msgid "The sitemap has been deleted."
+msgstr ""
+
+#: xmlsitemap.admin.inc:268,285
+msgid ""
+"The minimum amount of time that will elapse before the sitemaps are "
+"regenerated. The sitemaps will also only be regenerated on cron if any "
+"links have been added, updated, or deleted."
+msgstr ""
+"Минимальное количество времени, "
+"которое пройдет перед тем, как карты "
+"сайта будут обновлены. Карты сайтов "
+"также будут обновлены по cron, если "
+"будут добавлены, изменены или удалены "
+"какие-либо ссылки."
+
+#: xmlsitemap.admin.inc:268,285
+msgid "Recommended value: %value."
+msgstr "Рекомендуемое значение: %value."
+
+#: xmlsitemap.admin.inc:274,291
+msgid ""
+"When enabled, this will add formatting and tables with sorting to make "
+"it easier to view the XML sitemap data instead of viewing raw XML "
+"output. Search engines will ignore this."
+msgstr ""
+"Когда включено, для упрощения "
+"читаемости к XML картам сайта "
+"добавляется форматирование и таблицы "
+"с сортировкой. Игнорируется "
+"поисковыми системами."
+
+#: xmlsitemap.admin.inc:279,296
+msgid "Prefetch URL aliases during sitemap generation."
+msgstr ""
+"Предварительно запрашивать URL "
+"синонимы во время генерации карты "
+"сайта."
+
+#: xmlsitemap.admin.inc:303,321
+msgid ""
+"If there are problems with rebuilding the sitemap, you may want to "
+"manually set this value. If you have more than @max links, an index "
+"with multiple sitemap pages will be generated. There is a maximum of "
+"@max sitemap pages."
+msgstr ""
+"Если при создании sitemap не было ошибок, "
+"вы можете вручную задать это значение. "
+"Если у вас более @max ссылок, будет "
+"создан индексный файл с несколькими "
+"sitemap. Максимум @max страниц sitemap."
+
+#: xmlsitemap.admin.inc:328,344
+msgid "Default base URL"
+msgstr "Базовый URL по умолчанию"
+
+#: xmlsitemap.admin.inc:331,347
+msgid "This is the default base URL used for sitemaps and sitemap links."
+msgstr ""
+"Базовый URL, используемая для карт "
+"сайта и их ссылок."
+
+#: xmlsitemap.admin.inc:155,174
+msgid "@action @count XML sitemap."
+msgid_plural "@action @count XML sitemaps."
+msgstr[0] "@action @count XML карта сайта."
+msgstr[1] "@action @count XML карт сайта."
+
+#: xmlsitemap.generate.inc:257,299
+msgid "Regenerating Sitemap"
+msgstr ""
+
+#: xmlsitemap.generate.inc:296,339
+msgid "Now generating %sitemap-url."
+msgstr ""
+
+#: xmlsitemap.generate.inc:329,372
+msgid "Now generating sitemap index %sitemap-url."
+msgstr ""
+
+#: xmlsitemap.generate.inc:54,62
+msgid "Starting XML sitemap generation. Memory usage: @memory-peak."
+msgstr ""
+"Начало генерации XML sitemap. Используемая "
+"память: @memory-peak."
+
+#: xmlsitemap.xmlsitemap.inc:274,293
+msgid "Update cached files"
+msgstr "Обновить кэшированные файлы"
+
+#: xmlsitemap.module:77
+msgid ""
+"In order to perform bulk operations on the sitemaps listed below, it "
+"is highly recommended to download and install the <a "
+"href=\"@elements\">Elements module</a>."
+msgstr ""
+"Для того, чтобы выполнить набор "
+"операций над файлами sitemap, "
+"перечисленными ниже, настоятельно "
+"рекомендуется скачать и установить <a "
+"href=\"@elements\">модуль Elements</a>."
+
+#: xmlsitemap.module:191,170
+msgid "Rebuild links"
+msgstr "Обновить карту сайта"
+
+#: xmlsitemap_engines/xmlsitemap_engines.module:239,226
+msgid "Submit to search engines"
+msgstr "Отправить в поисковые системы"
+
+#: xmlsitemap.admin.inc:243,260
+msgid "Are you sure you want to delete the XML sitemap?"
+msgstr ""
+
+#: xmlsitemap.admin.inc:458,471
+msgid "Are you sure you want to rebuild the XML sitemap?"
+msgstr ""
+
+#: xmlsitemap.generate.inc:351,397
+msgid "The sitemaps were not successfully regenerated."
+msgstr ""
+
+#: xmlsitemap.generate.inc:471,535
+msgid "The sitemap links were rebuilt."
+msgstr ""
+
+#: xmlsitemap.generate.inc:474,538
+msgid "The sitemap links were not successfully rebuilt."
+msgstr ""
+
+#: xmlsitemap.generate.inc:341,387
+msgid ""
+"Finished XML sitemap generation in @elapsed. Memory usage: "
+"@memory-peak."
+msgstr ""
+
+#: xmlsitemap.xmlsitemap.inc:228,247
+msgid ""
+"The front page path can be changed in the <a "
+"href=\"@url-frontpage\">site information configuration</a>."
+msgstr ""
+"Путь главной страницы может быть "
+"изменен на странице <a "
+"href=\"@url-frontpage\">информации о сайте</a>."
+
+#: xmlsitemap.module:1358,1295
+msgid "XML sitemap settings for the @bundle-label %bundle have been saved."
+msgstr ""
+
+#: xmlsitemap.module:133,112
+msgid ""
+"Configure your site's XML sitemaps to help search engines find and "
+"index pages on your site."
+msgstr ""
+"Настройка XML карты сайта помогает "
+"поисковым системам находить и "
+"индексировать страницы вашего сайта."
+
+#: xmlsitemap.module:155,133
+msgid "Edit XML sitemap"
+msgstr ""
+
+#: xmlsitemap.module:163
+msgid "Delete XML sitemap"
+msgstr ""
+
+#: xmlsitemap.install:53,52
+msgid ""
+"The directory %directory was not found or is not writable by the "
+"server. See <a href=\"@docpage\">@docpage</a> for more information."
+msgstr ""
+
+#: xmlsitemap.install:65,64
+msgid ""
+"The following directories were not found or are not writable by the "
+"server. See <a href=\"@docpage\">@docpage</a> for more information. "
+"!directories"
+msgstr ""
+
+#: xmlsitemap_custom/xmlsitemap_custom.module:32,33
+msgid "Delete custom link"
+msgstr ""
+
+#: xmlsitemap_engines/xmlsitemap_engines.install:44,119
+msgid ""
+"The following search engines have deprecated their XML sitemap ping "
+"services and have been disabled: !list."
+msgstr ""
+
+#: xmlsitemap_modal/xmlsitemap_modal.info:0
+msgid "XML sitemap modal UI"
+msgstr ""
+
+#: xmlsitemap_modal/xmlsitemap_modal.info:0
+msgid "Provides an AJAX modal UI for common XML sitemap tasks."
+msgstr ""
+
+#: xmlsitemap_user/xmlsitemap_user.install:20
+msgid ""
+"In order to list user profile links in the sitemap, the anonymous user "
+"must have the <a href=\"@perm-link\"><em>View user profiles</em> "
+"permission</a>."
+msgstr ""
+
+#: xmlsitemap.module:124
+msgid "Add XML sitemap"
+msgstr ""
+
+#: xmlsitemap.admin.inc:280,297
+msgid ""
+"When enabled, this will fetch all URL aliases at once instead of one "
+"at a time during sitemap generation. For medium or large sites, it is "
+"recommended to disable this feature as it uses a lot of memory."
+msgstr ""
+
+#: xmlsitemap.install:24,23
+msgid "XML sitemap PHP extensions"
+msgstr ""
+
+#: xmlsitemap.install:27,26
+msgid ""
+"The XML sitemap module requires you to enable the PHP extensions in "
+"the following list (see the <a "
+"href=\"@xmlsitemap_requirements\">module's system requirements "
+"page</a> for more information):"
+msgstr ""
+
+#: xmlsitemap.install:114,113
+msgid "Last attempted generation on !date (!interval ago)."
+msgstr ""
+

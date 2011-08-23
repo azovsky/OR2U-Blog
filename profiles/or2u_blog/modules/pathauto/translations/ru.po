@@ -1,0 +1,916 @@
+# Russian translation of Pathauto (7.x-1.0-rc1)
+# Copyright (c) 2011 by the Russian translation team
+# Generated from files:
+#  pathauto/pathauto.pathauto.inc: n/a
+#  pathauto/pathauto.module: n/a
+#  pathauto/pathauto.admin.inc: n/a
+#  pathauto/pathauto.info: n/a
+#  pathauto/pathauto.inc: n/a
+#  pathauto/pathauto.tokens.inc: n/a
+#  pathauto/pathauto.js: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pathauto (7.x-1.0-rc1)\n"
+"POT-Creation-Date: 2011-08-21 12:58+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: pathauto.pathauto.inc:17; pathauto.module:140
+msgid "Content"
+msgstr "Содержимое"
+
+#: pathauto.admin.inc:205,213
+msgid "Remove"
+msgstr "Удалить"
+
+#: pathauto.module:64,103,34,69
+msgid "Settings"
+msgstr "Настройки"
+
+#: pathauto.admin.inc:284,339
+msgid "Update"
+msgstr "Обновить"
+
+#: pathauto.admin.inc:102,105
+msgid "Separator"
+msgstr "Разделитель"
+
+#: pathauto.pathauto.inc:22; pathauto.module:145
+msgid "Taxonomy terms"
+msgstr "Термины таксономии"
+
+#: pathauto.pathauto.inc:20
+msgid ""
+"Default path pattern (applies to all node types with blank patterns "
+"below)"
+msgstr ""
+"Шаблон адреса по умолчанию "
+"(применяется ко всем типам документов, "
+"для которых ниже не заданы шаблоны)"
+
+#: pathauto.pathauto.inc:135,97
+msgid ""
+"Default path pattern (applies to all vocabularies with blank patterns "
+"below)"
+msgstr ""
+"Общий образец (применяется при "
+"незаполненных ниже полях)"
+
+#: pathauto.pathauto.inc:148,110
+msgid "Pattern for all %vocab-name paths"
+msgstr "Шаблон для всех %vocab-name адресов"
+
+#: pathauto.pathauto.inc:212,170
+msgid "Pattern for forums and forum containers"
+msgstr ""
+"Шаблон для адресов пользовательских "
+"страниц"
+
+#: pathauto.pathauto.inc:274,231
+msgid "Pattern for user account page paths"
+msgstr "Образец"
+
+#: pathauto.pathauto.inc:336,291
+msgid "Pattern for blog page paths"
+msgstr "Шаблон для адресов страницы блога"
+
+#: pathauto.admin.inc:95,98
+msgid "Verbose"
+msgstr "Подробная информация"
+
+#: pathauto.admin.inc:97,100
+msgid "Display alias changes (except during bulk updates)."
+msgstr ""
+"Показать изменения синонимов (кроме "
+"пакетного обновления)"
+
+#: pathauto.admin.inc:206,214
+msgid "Replace by separator"
+msgstr "Заменить на разделитель"
+
+#: pathauto.admin.inc:123,126
+msgid "Maximum alias length"
+msgstr "Полная длина"
+
+#: pathauto.admin.inc:134,137
+msgid "Maximum component length"
+msgstr "Длина части"
+
+#: pathauto.admin.inc:154,149
+msgid "Update action"
+msgstr "Действие обновления"
+
+#: pathauto.admin.inc:181,189
+msgid "Strings to Remove"
+msgstr "Удаляемые слова"
+
+#: pathauto.info:0
+msgid "Pathauto"
+msgstr "Синонимы"
+
+#: pathauto.module:50
+msgid "administer pathauto"
+msgstr "управлять АвтоСинонимами"
+
+#: pathauto.module:63,33; pathauto.info:0
+msgid ""
+"Provides a mechanism for modules to automatically generate aliases for "
+"the content they manage."
+msgstr ""
+"Обеспечивает для модулей механизм "
+"автоматической генерации синонимов "
+"для материала, которым они управляют."
+
+#: pathauto.pathauto.inc:16; pathauto.module:139
+msgid "Users"
+msgstr "Пользователи"
+
+#: pathauto.admin.inc:70,72
+msgid "Replacement patterns"
+msgstr "Подстановочные шаблоны"
+
+#: pathauto.pathauto.inc:25; pathauto.module:148
+msgid "Forums"
+msgstr "Форумы"
+
+#: pathauto.inc:853
+msgid "..."
+msgstr "..."
+
+#: pathauto.module:275,371,383
+msgid "URL path settings"
+msgstr "Настройки адресов"
+
+#: pathauto.inc:409,492
+msgid ""
+"The automatically generated alias %original_alias conflicted with an "
+"existing alias. Alias changed to %alias."
+msgstr ""
+"Автоматически сформированный "
+"%original_alias конфликтует с существующим "
+"адресом. Синоним изменён на %alias."
+
+#: pathauto.inc:598,753
+msgid "Double quotes \""
+msgstr "Двойная кавычка \""
+
+#: pathauto.inc:599,754
+msgid "Single quotes (apostrophe) '"
+msgstr "Одинарный кавычки (апостроф) '"
+
+#: pathauto.inc:600,755
+msgid "Back tick `"
+msgstr "Обратная черта `"
+
+#: pathauto.inc:601,756
+msgid "Comma ,"
+msgstr "Запятая ,"
+
+#: pathauto.inc:602,757
+msgid "Period ."
+msgstr "Точка ."
+
+#: pathauto.inc:603,758
+msgid "Hyphen -"
+msgstr "Тире -"
+
+#: pathauto.inc:604,759
+msgid "Underscore _"
+msgstr "Подчёркивание _"
+
+#: pathauto.inc:605,760
+msgid "Colon :"
+msgstr "Двоеточие :"
+
+#: pathauto.inc:606,761
+msgid "Semicolon ;"
+msgstr "Точка с запятой ;"
+
+#: pathauto.inc:607,762
+msgid "Pipe |"
+msgstr "Вертикальная черта |"
+
+#: pathauto.inc:608,763
+msgid "Left curly bracket {"
+msgstr "Левая фигурная скобка {"
+
+#: pathauto.inc:609,764
+msgid "Left square bracket ["
+msgstr "Левая прямая скобка ["
+
+#: pathauto.inc:610,765
+msgid "Right curly bracket }"
+msgstr "Правая фигурная скобка }"
+
+#: pathauto.inc:611,766
+msgid "Right square bracket ]"
+msgstr "Правая прямая скобка ]"
+
+#: pathauto.inc:612,767
+msgid "Plus +"
+msgstr "Плюс +"
+
+#: pathauto.inc:613,768
+msgid "Equal ="
+msgstr "Равно ="
+
+#: pathauto.inc:614,769
+msgid "Asterisk *"
+msgstr "Звёздочка *"
+
+#: pathauto.inc:615,770
+msgid "Ampersand &"
+msgstr "Амперсанд &"
+
+#: pathauto.inc:616,771
+msgid "Percent %"
+msgstr "Процент %"
+
+#: pathauto.inc:617,772
+msgid "Caret ^"
+msgstr "Степень ^"
+
+#: pathauto.inc:618,773
+msgid "Dollar $"
+msgstr "Доллар $"
+
+#: pathauto.inc:619,774
+msgid "Hash #"
+msgstr "Номер #"
+
+#: pathauto.inc:620,775
+msgid "At @"
+msgstr "Собака @"
+
+#: pathauto.inc:621,776
+msgid "Exclamation !"
+msgstr "Восклицательный знак !"
+
+#: pathauto.inc:622,777
+msgid "Tilde ~"
+msgstr "Тильда ~"
+
+#: pathauto.inc:623,778
+msgid "Left parenthesis ("
+msgstr "Левая скобка ("
+
+#: pathauto.inc:625,780
+msgid "Question mark ?"
+msgstr "Вопросительный знак ?"
+
+#: pathauto.inc:626,781
+msgid "Less than <"
+msgstr "Знак меньше <"
+
+#: pathauto.inc:627,782
+msgid "Greater than >"
+msgstr "Знак больше >"
+
+#: pathauto.pathauto.inc:74,38
+msgid "Pattern for all @node_type paths"
+msgstr ""
+"Шаблон для всех адресов материалов "
+"типа @node_type"
+
+#: pathauto.module:121,87
+msgid "Delete aliases"
+msgstr "Удалить синонимы"
+
+#: pathauto.tokens.inc:18
+msgid "As [cat], but including its supercategories separated by /."
+msgstr ""
+"Как [cat], но включает категорию "
+"верхнего уровня отделённую /."
+
+#: pathauto.tokens.inc:24
+msgid "As [term], but including its supercategories separated by /."
+msgstr ""
+"Как [term], но включает категорию "
+"верхнего уровня отделённую /."
+
+#: pathauto.module:318,370; pathauto.js:0
+msgid "Automatic alias"
+msgstr "Автоматический псевдоним"
+
+#: pathauto.admin.inc:106,109
+msgid ""
+"Character used to separate words in titles. This will replace any "
+"spaces and punctuation characters. Using a space or + character can "
+"cause unexpected results."
+msgstr ""
+"Введите знак, который будет "
+"использоваться в качестве "
+"разделителя слов. Этим знаком будут "
+"заменяться пробелы и знаки "
+"пунктуации. В качестве разделителя не "
+"рекомендуется использовать "
+"<em>пробел</em> и <em>+</em>."
+
+#: pathauto.admin.inc:111,114
+msgid "Character case"
+msgstr "Регистр символов"
+
+#: pathauto.admin.inc:114,117
+msgid "Leave case the same as source token values."
+msgstr "Оставить без изменений"
+
+#: pathauto.admin.inc:115,118
+msgid "Change to lower case"
+msgstr "Изменить в нижний регистр"
+
+#: pathauto.admin.inc:157,152
+msgid "Do nothing. Leave the old alias intact."
+msgstr ""
+"Пропустить (старый адрес останется "
+"нетронутым)"
+
+#: pathauto.admin.inc:158,153
+msgid "Create a new alias. Leave the existing alias functioning."
+msgstr ""
+"Добавить адрес (существующий адрес "
+"оставить)"
+
+#: pathauto.admin.inc:159,154
+msgid "Create a new alias. Delete the old alias."
+msgstr ""
+"Добавить адрес (существующий адрес "
+"удалить)"
+
+#: pathauto.admin.inc:155
+msgid "Create a new alias. Redirect from old alias."
+msgstr ""
+"Добавить адрес (существующий адрес "
+"перенаправить)"
+
+#: pathauto.admin.inc:166,170
+msgid "Transliterate prior to creating alias"
+msgstr "Использовать транслитерацию"
+
+#: pathauto.admin.inc:176,184
+msgid ""
+"Filters the new alias to only letters and numbers found in the "
+"ASCII-96 set."
+msgstr ""
+"Отметьте это поле, чтобы при "
+"транслитерации из адресов "
+"исключались знаки на входящие в ASCII-96."
+
+#: pathauto.admin.inc:207,215
+msgid "No action (do not replace)"
+msgstr "Нет действия (не заменять)"
+
+#: pathauto.admin.inc:76
+msgid "Use -raw replacements for text to avoid problems with HTML entities."
+msgstr ""
+"Для того, чтобы избежать проблем со "
+"спецзнаками HTML, используйте в "
+"маркерах суффикс <em>-raw</em>. Например, "
+"при использовании этого суффикса для "
+"названия документа с текстом <em>URL's</em> "
+"будет сгенерирован адрес <em>urls</em>, а не "
+"<em>url039s</em>."
+
+#: pathauto.admin.inc:391,446
+msgid "Delete all aliases. Number of aliases which will be deleted: %count."
+msgstr ""
+"Удалить все синонимы. Количество "
+"синонимов, которые будут удалены: %count."
+
+#: pathauto.admin.inc:402,457
+msgid ""
+"Delete aliases for all @label. Number of aliases which will be "
+"deleted: %count."
+msgstr ""
+"Удалить синонимы для всех @label. Число "
+"синонимов, которые будут удалены: %count."
+
+#: pathauto.admin.inc:410,465
+msgid "Delete aliases now!"
+msgstr "Удалить"
+
+#: pathauto.admin.inc:425,479
+msgid "All of your path aliases have been deleted."
+msgstr "Все ваши синонимы путей были удалены."
+
+#: pathauto.admin.inc:432,484
+msgid "All of your %type path aliases have been deleted."
+msgstr ""
+"Все ваши синонимы путей %type были "
+"удалены."
+
+#: pathauto.module:51
+msgid "notify of path changes"
+msgstr "оповещение об изменении адреса"
+
+#: pathauto.pathauto.inc:32
+msgid ""
+"Default path pattern for @node_type (applies to all @node_type node "
+"types with blank patterns below)"
+msgstr ""
+"Общий образец (применяется при "
+"незаполненных ниже полях)"
+
+#: pathauto.module:62,32
+msgid "About"
+msgstr "Информация"
+
+#: pathauto.module:94,60
+msgid "Patterns"
+msgstr "Шаблоны"
+
+#: pathauto.js:0
+msgid "Alias: @alias"
+msgstr "Адрес: @alias"
+
+#: pathauto.js:0
+msgid "No alias"
+msgstr "Синоним не задан"
+
+#: pathauto.admin.inc:189,197
+msgid "Punctuation"
+msgstr "Пунктуация"
+
+#: pathauto.module:108
+msgid "pathauto"
+msgstr "pathauto"
+
+#: pathauto.module:320,372
+msgid ""
+"An alias will be generated for you. If you wish to create your own "
+"alias below, uncheck this option."
+msgstr ""
+"Для вас будет сгенерирован синоним. "
+"Если вы хотите задать собственный "
+"синоним, отключите эту опцию."
+
+#: pathauto.admin.inc:129,132
+msgid ""
+"Maximum length of aliases to generate. 100 is the recommended length. "
+"@max is the maximum possible length. See <a "
+"href=\"@pathauto-help\">Pathauto help</a> for details."
+msgstr ""
+"Максимальная длина псевдонимов. 100 - "
+"это рекомендованная длина. @max - "
+"максимально возможная. Смотрите <a "
+"href=\"@pathauto-help\">Помощь по Pathauto</a> для "
+"дополнительных сведений."
+
+#: pathauto.admin.inc:145,157
+msgid ""
+"What should Pathauto do when updating an existing content item which "
+"already has an alias?"
+msgstr ""
+"Выберите действие, которое будет "
+"использовать модуль Pathauto в том случае, "
+"когда альтернативный адрес уже "
+"существует."
+
+#: pathauto.admin.inc:168,172
+msgid ""
+"When a pattern includes certain characters (such as those with "
+"accents) should Pathauto attempt to transliterate them into the "
+"ASCII-96 alphabet? Transliteration is handled by the Transliteration "
+"module."
+msgstr ""
+"Отметьте это поле, чтобы при генерации "
+"адреса использовать транслитерацию. "
+"Правила транслитерации определяются "
+"файлом <em>i18n-ascii.txt</em>, который "
+"находится в папке модуля. <strong>Для "
+"включения возможности транслитерации "
+"переименуйте файл <em>i18n-ascii.example.txt</em> в "
+"<em>i18n-ascii.txt</em>.</strong>"
+
+#: pathauto.admin.inc:174,182
+msgid "Reduce strings to letters and numbers"
+msgstr "Сократите строки до букв и цифр"
+
+#: pathauto.admin.inc:183,191
+msgid ""
+"Words to strip out of the URL alias, separated by commas. Do not use "
+"this to remove punctuation."
+msgstr ""
+"Введите <strong>через запятую</strong> слова, "
+"которые не будут использоваться при "
+"генерации адресов. Отметьте: для этого "
+"поля следует отключить использование "
+"визуального текстового редактора, т.к. "
+"он может использовать в этом поле "
+"невидимые вам теги."
+
+#: pathauto.admin.inc:306
+msgid ""
+"You have configured the @name to be the separator and to be removed "
+"when encountered in strings. This can cause problems with your "
+"patterns and especially with the catpath and termpath patterns. You "
+"should probably set the action for @name to be \"replace by "
+"separator\"."
+msgstr ""
+"Вы указали @name как разделитель и "
+"одновременно назначили его удаление "
+"из строк. Это может вызвать проблемы в "
+"шаблонах, особенно в catpath и termpath. "
+"Попробуйте назначить для @name «замену "
+"разделителем»."
+
+#: pathauto.admin.inc:380,435
+msgid "Choose aliases to delete"
+msgstr "Выбор адресов"
+
+#: pathauto.admin.inc:389,444
+msgid "All aliases"
+msgstr "Все синонимы"
+
+#: pathauto.admin.inc:407,462
+msgid ""
+"<strong>Note:</strong> there is no confirmation. Be sure of your "
+"action before clicking the \"Delete aliases now!\" button.<br />You "
+"may want to make a backup of the database and/or the url_alias table "
+"prior to using this feature."
+msgstr ""
+"<strong>Помните:</strong> действие невозможно "
+"отменить. Убедитесь в правильности "
+"своих действий до того, как нажмёте "
+"кнопку \"Удалить синонимы!\".<br />Если не "
+"уверены в правильности действий, "
+"сделайте резервную копию таблицы "
+"url_alias или всей БД."
+
+#: pathauto.inc:479,562
+msgid "Ignoring alias %alias due to existing path conflict."
+msgstr ""
+"Игнорируется псевдоним %alias по причине "
+"конфликта с существующим путем."
+
+#: pathauto.inc:486,569
+msgid "Ignoring alias %alias because it is the same as the internal path."
+msgstr ""
+"Игнорируется псевдоним %alias, потому "
+"что он такой же, как и внутренний путь."
+
+#: pathauto.inc:613
+msgid ""
+"Created new alias %alias for %source, replacing %old_alias. %old_alias "
+"now redirects to %alias."
+msgstr ""
+"Создан новый псевдоним %alias для %source, "
+"заменивший %old_alias. %old_alias теперь "
+"перенаправляет на %alias."
+
+#: pathauto.inc:517,616
+msgid "Created new alias %alias for %source, replacing %old_alias."
+msgstr ""
+"Создан новый псевдоним %alias для %source, "
+"заменивший %old_alias."
+
+#: pathauto.inc:520,619
+msgid "Created new alias %alias for %source."
+msgstr "Создан новый псевдоним %alias для %source."
+
+#: pathauto.module:66,36
+msgid "Maximum alias and component length"
+msgstr ""
+"Максимальная длина псевдонима и "
+"компонента"
+
+#: pathauto.module:79
+msgid "Administer pathauto"
+msgstr "Администрировать Pathauto"
+
+#: pathauto.module:80
+msgid ""
+"Allows a user to configure patterns for automated aliases and bulk "
+"delete URL-aliases."
+msgstr ""
+"Позволяет пользователю "
+"конфигурировать шаблоны для "
+"автоматических псевдонимов и массово "
+"удалять URL-псевдонимы."
+
+#: pathauto.module:83
+msgid "Notify of Path Changes"
+msgstr "Уведомлять при изменениях путей."
+
+#: pathauto.module:84
+msgid "Determines whether or not users are notified."
+msgstr ""
+"Определяет, требуется ли уведомление "
+"пользователя."
+
+#: pathauto.pathauto.inc:19; pathauto.module:142
+msgid "User blogs"
+msgstr "Блоги пользователей"
+
+#: pathauto.admin.inc:140,143
+msgid ""
+"Maximum text length of any component in the alias (e.g., [title]). 100 "
+"is the recommended length. @max is the maximum possible length. See <a "
+"href=\"@pathauto-help\">Pathauto help</a> for details."
+msgstr ""
+"Максимальная длина каждого из "
+"компонентов псевдонима (например, "
+"[title]). 100 - это рекомендованная длина. @max "
+"- максимально возможная. Смотрите <a "
+"href=\"@pathauto-help\">Помощь по Pathauto</a> для "
+"дополнительных сведений."
+
+#: pathauto.admin.inc:243
+msgid "Please make sure you are using the latest version of the Token module."
+msgstr ""
+"Пожалуйста, убедитесь что Вы "
+"используете последнюю версию модуля "
+"Token."
+
+#: pathauto.admin.inc:262
+msgid ""
+"You are using the token [%token] which has a raw companion token "
+"[%raw_token]. For Pathauto patterns you should use the -raw version of "
+"tokens unless you really know what you are doing. See the <a "
+"href=\"@pathauto-help\">Pathauto help</a> for more details."
+msgstr ""
+"Вы используете маркер [%token], который "
+"имеет похожий маркер [%raw_token]. Для "
+"синонимов шаблонов Pathauto Вы должны "
+"использовать \"-raw\"-версии маркеров, "
+"кроме случаев, когда Вы действительно "
+"понимаете, что Вы делаете. Смотрите <a "
+"href=\"@pathauto-help\">Помощь по Pathauto</a> для "
+"дополнительных сведений."
+
+#: pathauto.admin.inc:222,277
+msgid "The field %name is not a valid number."
+msgstr "Поле %name это неверное число."
+
+#: pathauto.admin.inc:225,280
+msgid "The field %name cannot be greater than @max."
+msgstr "Поле %name не может быть больше, чем @max."
+
+#: pathauto.admin.inc:228,283
+msgid "The field %name cannot be less than @min."
+msgstr "Поле %name не может быть меньше, чем @min."
+
+#: pathauto.admin.inc:240,295
+msgid ""
+"The <em>Strings to remove</em> field must not contain HTML. Make sure "
+"to disable any WYSIWYG editors for this field."
+msgstr ""
+"Поле <em>строк на удаление</em> не должно "
+"содержать HTML. Убедитесь, что отключили "
+"какие-либо WYSIWYG-редакторы для этого "
+"поля."
+
+#: pathauto.admin.inc:268,323
+msgid "Select the types of un-aliased paths for which to generate URL aliases"
+msgstr ""
+"Выберите типы путей без псевдонимов "
+"для генерации таковых для них"
+
+#: pathauto.admin.inc:298,353
+msgid "Bulk updating URL aliases"
+msgstr "Массовое обновление псевдонимов URL"
+
+#: pathauto.admin.inc:358,413
+msgid "An error occurred while processing @operation with arguments : @args"
+msgstr ""
+"Возникла ошибка в процессе @operation с "
+"аргументами: @args"
+
+#: pathauto.admin.inc:350,405
+msgid "Generated 1 URL alias."
+msgid_plural "Generated @count URL aliases."
+msgstr[0] "Создан 1 псевдоним."
+msgstr[1] "Создано @count псевдонима."
+msgstr[2] "Создано @count псевдонимов."
+
+#: pathauto.inc:624,779
+msgid "Right parenthesis )"
+msgstr "Правая скобка \")\""
+
+#: pathauto.inc:628,783
+msgid "Slash /"
+msgstr "Слэш /"
+
+#: pathauto.inc:629,784
+msgid "Backslash \\"
+msgstr "Обратный слэш \\"
+
+#: pathauto.pathauto.inc:19
+msgid "Node paths"
+msgstr "Пути материала"
+
+#: pathauto.pathauto.inc:63,27
+msgid "language neutral"
+msgstr "язык нейтрален"
+
+#: pathauto.pathauto.inc:70,34
+msgid "Pattern for all @language @node_type paths"
+msgstr "Шаблон для всех путей @language @node_type"
+
+#: pathauto.pathauto.inc:118,80
+msgid "Updated alias for node @nid."
+msgstr "Обновлен псевдоним для материала @nid."
+
+#: pathauto.pathauto.inc:134,96
+msgid "Taxonomy term paths"
+msgstr "Пути термина таксономии"
+
+#: pathauto.pathauto.inc:195,153
+msgid "Updated alias for term @tid."
+msgstr "Обновлен псевдоним для термина @tid."
+
+#: pathauto.pathauto.inc:211,169
+msgid "Forum paths"
+msgstr "Пути форума"
+
+#: pathauto.pathauto.inc:257,214
+msgid "Updated alias for forum @tid."
+msgstr "Обновлен псевдоним для форума @tid."
+
+#: pathauto.pathauto.inc:273,230
+msgid "User paths"
+msgstr "Пути пользователя"
+
+#: pathauto.pathauto.inc:319,274
+msgid "Updated alias for user @uid."
+msgstr ""
+"Обновлен псевдоним для пользователя "
+"@uid."
+
+#: pathauto.pathauto.inc:335,290
+msgid "Blog paths"
+msgstr "Пути блога"
+
+#: pathauto.pathauto.inc:385,335
+msgid "Updated alias for blog user @uid."
+msgstr ""
+"Обновлен псевдоним для пользователя "
+"блога @uid."
+
+#: pathauto.tokens.inc:19
+msgid "As [cat-raw], but including its supercategories separated by /."
+msgstr ""
+"Как [cat-raw], но включая его "
+"суперкатегории, разделенные /."
+
+#: pathauto.tokens.inc:20,21,26,27
+msgid "The URL alias of the taxonomy term."
+msgstr "URL-псевдоним термина таксономии"
+
+#: pathauto.tokens.inc:25
+msgid "As [term-raw], but including its supercategories separated by /."
+msgstr ""
+"Как [term-raw], но включая его "
+"суперкатегории, разделенные /."
+
+#: pathauto.tokens.inc:33,34
+msgid "The URL alias of the parent book of the node."
+msgstr ""
+"URL-псевдоним родительской "
+"подшивки(книги) материала."
+
+#: pathauto.module:38
+msgid "Raw tokens"
+msgstr "Сырые маркеры"
+
+#: pathauto.module:39
+msgid ""
+"In Pathauto it is appropriate to use the -raw form of tokens. Paths "
+"are sent through a filtering system which ensures that raw user "
+"content is filtered. Failure to use -raw tokens can cause problems "
+"with the Pathauto punctuation filtering system."
+msgstr ""
+"В Pathauto это соответствует "
+"использованию \"-raw\"-форм маркеров. "
+"Пути посылаются сквозь фильтрующую "
+"систему, которая убеждается в том, что "
+"сырое пользовательское содержимое "
+"отфильтровано. Сбои при использовании "
+"\"-raw\"-маркеров могут вызвать проблемы "
+"с системой фильтрации пунктуации "
+"Pathauto."
+
+#: pathauto.module:325,377
+msgid ""
+"To control the format of the generated aliases, see the <a "
+"href=\"@url-patterns\">URL alias patterns</a>."
+msgstr ""
+"Для настройки генерируемых "
+"псевдонимов, смотрите <a "
+"href=\"@url-patterns\">шаблоны псевдонимов URL</a>."
+
+#: pathauto.module:435,646,401,658
+msgid "Update URL alias"
+msgstr "Обновить псевдоним URL"
+
+#: pathauto.module:489,457
+msgid "Updated URL alias for 1 node."
+msgid_plural "Updated URL aliases for @count nodes."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: pathauto.module:606,584
+msgid "Updated URL alias for 1 term."
+msgid_plural "Updated URL aliases for @count terms."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: pathauto.module:707,719
+msgid "Updated URL alias for 1 user account."
+msgid_plural "Updated URL aliases for @count user accounts."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: pathauto.module:112,78
+msgid "Bulk update"
+msgstr "Массовое обновление"
+
+#: pathauto.admin.inc:251
+msgid ""
+"You have configured the @name to be the separator and to be removed "
+"when encountered in strings. This can cause problems with your "
+"patterns and especially with the term:path token. You should probably "
+"set the action for @name to be \"replace by separator\"."
+msgstr ""
+"Вы установили @name в качестве "
+"разделителя, и он будет удаляться, "
+"когда встретится в строках. Это может "
+"вызвать проблемы с вашими шаблонами, и "
+"в особенности с "
+"\"термин:путь\"-маркерами. Вам следует "
+"активировать замену разделителем для "
+"@name."
+
+#: pathauto.pathauto.inc:55
+msgid "Content paths"
+msgstr "Пути материалов"
+
+#: pathauto.pathauto.inc:56
+msgid ""
+"Default path pattern (applies to all content types with blank patterns "
+"below)"
+msgstr ""
+"Шаблон пути по умолчанию (применяется "
+"ко всем типам содержимого с "
+"незаполненным полем шаблона ниже)"
+
+#: pathauto.pathauto.inc:68
+msgid ""
+"Default path pattern for @node_type (applies to all @node_type content "
+"types with blank patterns below)"
+msgstr ""
+
+#: pathauto.admin.inc:147
+msgid ""
+"The <a href=\"!url\">Redirect module settings</a> affect whether a "
+"redirect is created when an alias is deleted."
+msgstr ""
+
+#: pathauto.admin.inc:150
+msgid ""
+"Considering installing the <a href=\"!url\">Redirect module</a> to get "
+"redirects when your aliases change."
+msgstr ""
+
+#: pathauto.admin.inc:353,408
+msgid "No new URL aliases to generate."
+msgstr ""
+
+#: pathauto.tokens.inc:8
+msgid "Fake path"
+msgstr ""
+
+#: pathauto.module:67,37
+msgid ""
+"The <strong>maximum alias length</strong> and <strong>maximum "
+"component length</strong> values default to 100 and have a limit of "
+"@max from Pathauto. This length is limited by the length of the "
+"\"alias\" column of the url_alias database table. The default database "
+"schema for this column is @max. If you set a length that is equal to "
+"that of the one set in the \"alias\" column it will cause problems in "
+"situations where the system needs to append additional words to the "
+"aliased URL. You should enter a value that is the length of the "
+"\"alias\" column minus the length of any strings that might get added "
+"to the end of the URL. The length of strings that might get added to "
+"the end of your URLs depends on which modules you have enabled and on "
+"your Pathauto settings. The recommended and default value is 100."
+msgstr ""
+
+#: pathauto.module:372,384
+msgid "Path module form elements"
+msgstr ""
+
+#: pathauto.module:108
+msgid ""
+"The !deprecated function has been deprecated and !replacement should "
+"be used instead. It was called from %file on line %line, function "
+"%function()."
+msgstr ""
+

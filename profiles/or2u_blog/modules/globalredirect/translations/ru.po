@@ -1,0 +1,206 @@
+# Russian translation of Global Redirect (7.x-1.3)
+# Copyright (c) 2011 by the Russian translation team
+# Generated from files:
+#  globalredirect.admin.inc,v 1.5 2010/07/13 00:46:27 njt1982
+#  globalredirect.module,v 1.13.2.1 2010/07/16 22:59:32 njt1982
+#  globalredirect.info,v 1.5 2010/07/13 00:46:27 njt1982
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Global Redirect (7.x-1.3)\n"
+"POT-Creation-Date: 2011-08-21 12:54+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: globalredirect.admin.inc:92
+msgid "Reset to defaults"
+msgstr "Вернуться к исходным"
+
+#: globalredirect.admin.inc:37
+msgid "Disabled"
+msgstr "Отключено"
+
+#: globalredirect.admin.inc:91
+msgid "Save Configuration"
+msgstr "Сохранить настройки"
+
+#: globalredirect.admin.inc:20
+msgid "Deslash"
+msgstr "Удаление слеша"
+
+#: globalredirect.admin.inc:21
+msgid ""
+"If enabled, this option will remove the trailing slash from requests. "
+"This stops requests such as <code>example.com/node/1/</code> failing "
+"to match the corresponding alias and can cause duplicate content. On "
+"the other hand, if you require certain requests to have a trailing "
+"slash, this feature can cause problems so may need to be disabled."
+msgstr ""
+"Если включено, эта настройка будет "
+"удалять оконечный слэш из запросов. "
+"Это остановит запросы вроде "
+"<code>example.com/node/1/</code> от совпадения с "
+"соответствующим синонимом, что может "
+"стать причиной дублирующегося "
+"контента. С другой стороны, если вам "
+"необходимо, чтобы некоторые запросы "
+"шли с оконечным слэшем, эта настройка "
+"может создать проблемы, и потому "
+"должна быть отключена."
+
+#: globalredirect.admin.inc:27
+msgid "Non-clean to Clean"
+msgstr "С не чистых ссылок на чистые"
+
+#: globalredirect.admin.inc:28
+msgid ""
+"If enabled, this option will redirect from non-clean to clean URL (if "
+"Clean URL's are enabled). This will stop, for example, node 1  "
+"existing on both <code>example.com/node/1</code> AND "
+"<code>example.com?q=node/1</code>."
+msgstr ""
+"В положении включено эта опция будет "
+"переадресовывать с не чистых адресов "
+"на чистые (если такая возможность "
+"включена). Это предотвратит "
+"расположение одного материала, "
+"например, по двум адресам сразу "
+"<code>example.com/node/1</code> и <code>example.com?q=node/1</code>."
+
+#: globalredirect.admin.inc:34
+msgid "Remove Trailing Zero Argument"
+msgstr "Убрать оконечный нулевой аргумент"
+
+#: globalredirect.admin.inc:39
+msgid "Enabled for taxonomy term pages only"
+msgstr ""
+"Включено только для страницы термина "
+"таксономии"
+
+#: globalredirect.admin.inc:38
+msgid "Enabled for all pages"
+msgstr "Включено для всех страниц"
+
+#: globalredirect.admin.inc:46
+msgid "Menu Access Checking"
+msgstr "Проверка доступа к меню"
+
+#: globalredirect.admin.inc:53
+msgid "Case Sensitive URL Checking"
+msgstr "Проверка учета регистра в URL"
+
+#: globalredirect.module:17
+msgid ""
+"This module will do a 301 redirect for all nodes which have an alias "
+"but are not using that alias."
+msgstr ""
+"Этот модуль будет выполнять 301 redirect "
+"для всех материалов, имеющих, но не "
+"использующих синонимы."
+
+#: globalredirect.module:261; globalredirect.info:0
+msgid "Global Redirect"
+msgstr "Глобальная переадресация"
+
+#: globalredirect.module:262
+msgid "Chose which features you would like enabled for Global Redirect"
+msgstr ""
+"Выберите, какие функции вы хотели бы "
+"включить для глобальной "
+"переадресации."
+
+#: globalredirect.info:0
+msgid ""
+"Searches for an alias of the current URL and 301 redirects if found. "
+"Stops duplicate content arising when path module is enabled."
+msgstr ""
+"Ищет синоним текущего адреса и "
+"выполняет 301 redirect в случае его "
+"обнаружения. Предотвращает "
+"дублирование содержания, возникающее "
+"при включенном модуле Path."
+
+#: globalredirect.admin.inc:54
+msgid ""
+"If enabled, the module will compare the current URL to the alias "
+"stored in the system. If there are any differences in case then the "
+"user will be redirected to the correct URL."
+msgstr ""
+
+#: globalredirect.admin.inc:47
+msgid ""
+"If enabled, the module will check the user has access to the page "
+"before redirecting. This helps to stop redirection on protected pages "
+"and avoids giving away <em>secret</em> URL's. <strong>By default this "
+"feature is disabled to avoid any unexpected behavior</strong>"
+msgstr ""
+
+#: globalredirect.admin.inc:61
+msgid "Language Path Checking"
+msgstr ""
+
+#: globalredirect.admin.inc:62
+msgid ""
+"If enabled, the module will check that the page being viewed matches "
+"the language in the URL or the system default. For example, viewing a "
+"French node while the site is in English will cause a redirect to the "
+"English node."
+msgstr ""
+
+#: globalredirect.admin.inc:69
+msgid "Add Canonical Link"
+msgstr "Добавить каноническую ссылку"
+
+#: globalredirect.admin.inc:70
+msgid ""
+"If enabled, will add a <a href=\"!canonical\">canonical link</a> to "
+"each page."
+msgstr ""
+
+#: globalredirect.admin.inc:77
+msgid "Set Content Location Header"
+msgstr ""
+
+#: globalredirect.admin.inc:78
+msgid ""
+"If enabled, will add a <a href=\"!canonical\">Content-Location</a> "
+"header."
+msgstr ""
+
+#: globalredirect.admin.inc:85
+msgid "Taxonomy Term Path Handler"
+msgstr ""
+
+#: globalredirect.admin.inc:86
+msgid ""
+"If enabled, any request to a taxonomy/term/[tid] page will check that "
+"the correct path is being used for the term's vocabulary."
+msgstr ""
+
+#: globalredirect.admin.inc:127
+msgid "Globalredirect settings have been saved."
+msgstr ""
+"Настройки глобальной переадресации "
+"были сохранены."
+
+#: globalredirect.admin.inc:137
+msgid "Globalredirect settings have been reset to default."
+msgstr ""
+"Настройки глобальной переадресации "
+"были сброшены."
+
+#: globalredirect.admin.inc:35
+msgid ""
+"If enabled, any instance of \"/0\" will be trimmed from the right of "
+"the URL. This stops duplicate pages such as \"taxonomy/term/1\" and "
+"\"taxonomy/term/1/0\" where 0 is the default depth. There is an option "
+"of limiting this feature to taxonomy term pages ONLY or allowing it to "
+"effect any page. <strong>By default this feature is disabled to avoid "
+"any unexpected behavior. Also of note, the trailing /0 \"depth "
+"modifier\" was removed from Drupal 7.</strong>"
+msgstr ""
+

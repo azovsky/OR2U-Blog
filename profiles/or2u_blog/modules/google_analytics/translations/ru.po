@@ -1,0 +1,1361 @@
+# Russian translation of Google Analytics (7.x-1.2)
+# Copyright (c) 2011 by the Russian translation team
+# Generated from files:
+#  google_analytics/googleanalytics.admin.inc: n/a
+#  google_analytics/googleanalytics.info: n/a
+#  google_analytics/googleanalytics.install: n/a
+#  google_analytics/googleanalytics.module: n/a
+#  google_analytics/googleanalytics.admin.js: n/a
+#  google_analytics/googleanalytics.tokens.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Analytics (7.x-1.2)\n"
+"POT-Creation-Date: 2011-08-21 12:55+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: googleanalytics.admin.inc:93,116,89
+msgid "Pages"
+msgstr "Страницы"
+
+#: googleanalytics.admin.inc:480,445
+msgid "Value"
+msgstr "Значение"
+
+#: googleanalytics.admin.inc:479,444
+msgid "Name"
+msgstr "Название"
+
+#: googleanalytics.admin.inc:14
+msgid "General settings"
+msgstr "Основные настройки"
+
+#: googleanalytics.admin.inc:357,302
+msgid "Advanced settings"
+msgstr "Расширенные настройки"
+
+#: googleanalytics.info:0
+msgid "Statistics"
+msgstr "Статистика"
+
+#: googleanalytics.admin.inc:339,285
+msgid "Page"
+msgstr "Страница"
+
+#: googleanalytics.admin.inc:407
+msgid "Header"
+msgstr "Заголовок"
+
+#: googleanalytics.admin.inc:406
+msgid "Footer"
+msgstr "Подвал"
+
+#: googleanalytics.admin.inc:137,153,121
+msgid "Roles"
+msgstr "Роли"
+
+#: googleanalytics.admin.inc:162
+msgid "Users"
+msgstr "Пользователи"
+
+#: googleanalytics.admin.inc:75
+msgid ""
+"Enter one page per line as Drupal paths. The '*' character is a "
+"wildcard. Example paths are %blog for the blog page and %blog-wildcard "
+"for every personal blog. %front is the front page."
+msgstr ""
+"Вводите по одному внутреннему пути "
+"Drupal на строку. Символ '*' заменяет любое "
+"количество символов. Например, "
+"введите %blog для обзорной страницы "
+"блогов, %blog-wildcard для всех персональных "
+"блогов. %front - главная страница."
+
+#: googleanalytics.admin.inc:337,283
+msgid "Visitor"
+msgstr "Посетитель"
+
+#: googleanalytics.admin.inc:338,284
+msgid "Session"
+msgstr "Сессия"
+
+#: googleanalytics.admin.inc:481,446
+msgid "Scope"
+msgstr "Исследовать"
+
+#: googleanalytics.admin.inc:240,187
+msgid "Privacy"
+msgstr "Приватность"
+
+#: googleanalytics.admin.inc:79
+msgid ""
+"If the PHP-mode is chosen, enter PHP code between %php. Note that "
+"executing incorrect PHP-code can break your Drupal site."
+msgstr ""
+"Если выбран PHP-режим, введите PHP-код "
+"между %php. Имейте в виду, что выполнение "
+"некорректного PHP-кода может привести к "
+"неработоспособности сайта."
+
+#: googleanalytics.install:79,59
+msgid "Not configured"
+msgstr "Не сконфигуроровано"
+
+#: googleanalytics.admin.inc:78
+msgid ""
+"Add if the following PHP code returns <code>TRUE</code> (PHP-mode, "
+"experts only)."
+msgstr ""
+"Добавить если следующий код PHP "
+"возвращает <code>TRUE</code> (PHP-режим, только "
+"для экспертов)."
+
+#: googleanalytics.admin.inc:41,30
+msgid "Domains"
+msgstr "Домены"
+
+#: googleanalytics.admin.inc:219,329
+msgid "Depends on: !dependencies"
+msgstr "Зависит от: !dependencies"
+
+#: googleanalytics.admin.inc:219,329
+msgid "@module (<span class=\"admin-disabled\">disabled</span>)"
+msgstr "@module (<span class=\"admin-disabled\">отключен</span>)"
+
+#: googleanalytics.admin.inc:219,329
+msgid "@module (<span class=\"admin-enabled\">enabled</span>)"
+msgstr "@module (<span class=\"admin-enabled\">включен</span>)"
+
+#: googleanalytics.admin.inc:268,217
+msgid "User roles"
+msgstr "Роли пользователя"
+
+#: googleanalytics.admin.inc:74
+msgid "Add to every page except the listed pages."
+msgstr ""
+"Добавить для каждой страницы кроме "
+"страниц в списке."
+
+#: googleanalytics.admin.inc:74
+msgid "Add to the listed pages only."
+msgstr "Добавить только страницы списка."
+
+#: googleanalytics.admin.inc:120,83
+msgid "Add tracking to specific pages"
+msgstr ""
+"Добавить отслеживание к определенным "
+"страницам"
+
+#: googleanalytics.admin.inc:130
+msgid "User specific tracking settings"
+msgstr ""
+"Особые пользовательские настройки "
+"отслеживания"
+
+#: googleanalytics.admin.inc:135
+msgid "Custom tracking settings"
+msgstr "Обычные настройки отслеживания"
+
+#: googleanalytics.admin.inc:137
+msgid "Users cannot control whether they are tracked or not."
+msgstr ""
+"Пользователи не могут управлять "
+"отслеживаются они или нет."
+
+#: googleanalytics.admin.inc:138
+msgid "Track users by default, but let individual users to opt out."
+msgstr ""
+"Отслеживать пользоватьелей по "
+"умолчанию, но разрешить отдельным "
+"пользователям отключаться от "
+"отслеживания."
+
+#: googleanalytics.admin.inc:139
+msgid "Do not track users by default, but let individual users to opt in."
+msgstr ""
+"Не отслеживать пользователей по "
+"умолчанию, но разрешить отдельным "
+"пользователям включать отслеживание."
+
+#: googleanalytics.admin.inc:141
+msgid ""
+"Allow individual users to customize the visibility of tracking in "
+"their account settings. Only users with %permission permission are "
+"allowed to set their own preference."
+msgstr ""
+"Позволить отдельным пользователям "
+"настраивать видимость отслеживания в "
+"их настройках учетной записи. Только "
+"пользователям с разрешением %permission "
+"дозволяется настраивать их "
+"собственные предпочтения."
+
+#: googleanalytics.admin.inc:164,141; googleanalytics.module:42
+msgid "opt-in or out of tracking"
+msgstr "включить или отключить отслеживание"
+
+#: googleanalytics.admin.inc:100
+msgid "Role specific tracking settings"
+msgstr ""
+"Настройки отслеживания для особой "
+"роли"
+
+#: googleanalytics.admin.inc:142,106
+msgid "Add tracking for specific roles"
+msgstr ""
+"Добавить отслеживание для "
+"определенных ролей"
+
+#: googleanalytics.admin.inc:59
+msgid "Page specific tracking settings"
+msgstr ""
+"Настройки отслеживания для особых "
+"страниц"
+
+#: googleanalytics.admin.inc:212
+msgid "User segmentation settings"
+msgstr "Настройки разделения пользователя"
+
+#: googleanalytics.admin.inc:227
+msgid "Add segmentation information to tracking code"
+msgstr ""
+"Добавить информацию разделения к коду "
+"отслеживания"
+
+#: googleanalytics.admin.inc:228
+msgid ""
+"Segment users based on different properties, additionally to the basic "
+"IP address based tracking provided by Google Analytics."
+msgstr ""
+"Разделение пользователей основано на "
+"различных свойствах, дополнительно к "
+"отслеживанию основанному на базовом "
+"IP-адресе предусмотренном  Google Analytics."
+
+#: googleanalytics.admin.inc:279,228
+msgid ""
+"<a href=\"@module_list\">Enable the profile module</a> to be able to "
+"use profile fields for more granular tracking."
+msgstr ""
+"<a href=\"@module_list\">Разрешить модуль "
+"профиля</a> для возможности "
+"использовать поля профиля для "
+"большего дробления отслеживания."
+
+#: googleanalytics.admin.inc:228
+msgid ""
+"Make sure you will not associate (or permit any third party to "
+"associate) any data gathered from Your Website(s) (or such third "
+"parties' website(s)) with any personally identifying information from "
+"any source as part of Your use (or such third parties' use) of the "
+"Google Analytics service. For more information see section 8.1 in the "
+"<a href=\"@ga_tos\">Google Analytics terms of use</a>."
+msgstr ""
+"Будьте уверены, Вам не надо объединять "
+"(или разрешать объединять любые "
+"третьи партии) любые данные, собранные "
+"с вашего Веб-сайта(ов) (или такого же "
+"веб-сайта(ов) третьих партий) с любой "
+"личной информацией индентификации из "
+"любых источников, как часть Вашего "
+"использования (или так же "
+"использования третьими пратиями) "
+"службы Google Analytics. Для дополнительной "
+"информации смотрите раздел 8.1 на <a "
+"href=\"@ga_tos\">Термины использования Google "
+"Analytics</a>."
+
+#: googleanalytics.admin.inc:148
+msgid "Link tracking settings"
+msgstr "Настройки отслеживания ссылки"
+
+#: googleanalytics.admin.inc:156
+msgid "Enables tracking of clicks on outgoing links."
+msgstr ""
+"Разрешить отслеживание щелчков по "
+"исходящим ссылкам."
+
+#: googleanalytics.admin.inc:160
+msgid "Track mailto links"
+msgstr "Отслеживать сылки E-Mail"
+
+#: googleanalytics.admin.inc:162
+msgid "Enables tracking of clicks on mailto links."
+msgstr ""
+"Разрешить отслеживание шелчков по "
+"ссылкам E-Mail."
+
+#: googleanalytics.admin.inc:166
+msgid "Track download links"
+msgstr "Отслеживать ссылки загрузок"
+
+#: googleanalytics.admin.inc:168
+msgid ""
+"Enables tracking of clicks on links to files based on the file "
+"extensions list below."
+msgstr ""
+"Разрешить отслеживание щелчков по "
+"ссылкам на файлы с расширениями файла "
+"из списка ниже."
+
+#: googleanalytics.admin.inc:172
+msgid "File extensions to track"
+msgstr "Расширения фала для отслеживания"
+
+#: googleanalytics.admin.inc:174
+msgid ""
+"A pipe separated list of file extensions that should be tracked when "
+"clicked with regular expression support. Example: !extensions"
+msgstr ""
+"Список расширений, разделенных "
+"вертикальной чертой, которые "
+"отслеживаются при нажатии на "
+"соответствующие ссылки. Например: "
+"!extensions"
+
+#: googleanalytics.admin.inc:315
+msgid ""
+"<a href=\"@url\">Public file transfers</a> must be enabled to allow "
+"local caching."
+msgstr ""
+"<a href=\"@url\">Публичный метод загрузки "
+"файлов</a> должен быть включён для "
+"возможности локального кэширования."
+
+#: googleanalytics.admin.inc:373,322
+msgid "Track translation sets as one unit"
+msgstr ""
+"Отслеживаение совокупности переводов "
+"как единого целого"
+
+#: googleanalytics.admin.inc:374,323
+msgid ""
+"When a node is part of a translation set, record statistics for the "
+"originating node instead. This allows for a translation set to be "
+"treated as a single unit."
+msgstr ""
+"Если узел (node) часть совокупности "
+"переводов, то записывать статистику "
+"для оригинального узла. Это позволяет "
+"обращаться к совокупности переводов "
+"как к одному единому целому."
+
+#: googleanalytics.admin.inc:224,336
+msgid "Track internal search"
+msgstr "Отслеживание внутреннего поиска"
+
+#: googleanalytics.admin.inc:225,337
+msgid ""
+"If checked, internal search keywords are tracked. You must configure "
+"your Google account to use the internal query parameter "
+"<strong>search</strong>. For more information see <a href=\"@url\">How "
+"do I set up Site Search for my profile</a>."
+msgstr ""
+"Если установлено, будут отслеживаться "
+"ключевые слова внутреннего поиска. Вы "
+"должны конфигурировать Вашу учетную "
+"запись Google для использования "
+"параметра внутреннего запроса "
+"<strong>поиск</strong>. Для дополнительной "
+"информации смотрите <a href=\"@url\">Как мне "
+"установить Поиск по сайту для моего "
+"профиля</a>."
+
+#: googleanalytics.admin.inc:232,344
+msgid "Track AdSense ads"
+msgstr "Отслеживать рекламу AdSense"
+
+#: googleanalytics.admin.inc:233,345
+msgid ""
+"If checked, your AdSense ads will be tracked in your Google Analytics "
+"account."
+msgstr ""
+"Если выбрано, ваша реклама AdSense будет "
+"отслеживаться в вашем Google Analytics "
+"аккаунте."
+
+#: googleanalytics.admin.inc:381,351
+msgid "Custom JavaScript code"
+msgstr "Обычный код JavaScript"
+
+#: googleanalytics.admin.inc:354
+msgid ""
+"You can add custom Google Analytics <a href=\"@snippets\">code "
+"snippets</a> here. These will be added to every page that Google "
+"Analytics appears on. Before you add custom code to the below "
+"textarea's you should read <a href=\"@ga_concepts_overview\">Google "
+"Analytics Tracking Code - Functional Overview</a> and the <a "
+"href=\"@ga_js_api\">Google Analytics Tracking API</a> documentation. "
+"<strong>Do not include the &lt;script&gt; tags</strong>, and always "
+"end your code with a semicolon (;)."
+msgstr ""
+"Вы можете добавить обычные <a "
+"href=\"@snippets\">участки кода</a> Google Analytics "
+"здесь. Это должно быть добавлено, "
+"чтобы Google Analytics появлялся на каждой "
+"странице.  Перед добавлением обычного "
+"кода в область текста ниже вы должны "
+"прочитать документацию <a "
+"href=\"@ga_concepts_overview\">Код Отслеживания Google "
+"Analytics - Функциональный Обзор</a> и <a "
+"href=\"@ga_js_api\">Google Analytics API Отслеживания</a>. "
+" <strong>Не включайте теги &lt;script&gt;</strong>, и "
+"всегда заканчивайте Ваш код "
+"разделителем точка с запятой (;)."
+
+#: googleanalytics.admin.inc:388,358
+msgid "Code snippet (before)"
+msgstr "Участок кода (перед)"
+
+#: googleanalytics.admin.inc:395,366
+msgid "Code snippet (after)"
+msgstr "Участок кода (после)"
+
+#: googleanalytics.admin.inc:403
+msgid "JavaScript scope"
+msgstr "Область действия JavaScript"
+
+#: googleanalytics.admin.inc:453,456,424,427
+msgid ""
+"Do not add the tracker code provided by Google into the javascript "
+"code snippets! This module already builds the tracker code based on "
+"your Google Analytics account number and settings."
+msgstr ""
+"Не добавляте код отслеживания "
+"предусмотренный Google в участки кода "
+"javascript! Этот модуль уже формирует "
+"основу кода отслеживания для номер "
+"Вашей учетной записи и настроек Google "
+"Analytics."
+
+#: googleanalytics.admin.inc:459,462,430,433
+msgid ""
+"Do not include the &lt;script&gt; tags in the javascript code "
+"snippets."
+msgstr ""
+"Die &lt;script&gt; Tags dürfen in die JavaScript-Codeausschnitte "
+"nicht eingefügt werden."
+
+#: googleanalytics.module:298,280
+msgid "Google Analytics configuration"
+msgstr "Конфигурация Google Analytics"
+
+#: googleanalytics.module:306,288
+msgid "Users are tracked by default, but you are able to opt out."
+msgstr ""
+"Пользователи отслеживаются по "
+"умолчанию, но вы можете выключить это."
+
+#: googleanalytics.module:329,311
+msgid "Enable user tracking"
+msgstr "Добавить отслеживание пользователя"
+
+#: googleanalytics.module:310,292
+msgid "Users are <em>not</em> tracked by default, but you are able to opt in."
+msgstr ""
+"Пользователи <em>не</em> отслеживаются по "
+"умолчанию, но вы можете включить это."
+
+#: googleanalytics.install:76,56
+msgid "Google Analytics module"
+msgstr "Модуль Google Analytics"
+
+#: googleanalytics.install:77,57
+msgid ""
+"Google Analytics module has not been configured yet. Please configure "
+"its settings from the <a href=\"@url\">Google Analytics settings "
+"page</a>."
+msgstr ""
+"Модуль Google Analytics еще не "
+"сконфигурирован. Пожалуйста, "
+"конфигурируйте настройки из <a "
+"href=\"@url\">Страница настроек Google Analytics </a>."
+
+#: googleanalytics.module:42
+msgid "administer google analytics"
+msgstr "управление Google Analytics"
+
+#: googleanalytics.module:42
+msgid "use PHP for tracking visibility"
+msgstr ""
+"использовать PHP для видимости "
+"отслеживания"
+
+#: googleanalytics.module:63,50; googleanalytics.info:0
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: googleanalytics.module:51
+msgid ""
+"Configure the settings used to generate your Google Analytics tracking "
+"code."
+msgstr ""
+"Конфигурация настроек служит для "
+"генерации Вашего кода отслеживания "
+"Google Analytics."
+
+#: googleanalytics.info:0
+msgid ""
+"Adds Google Analytics javascript tracking code to all your site's "
+"pages."
+msgstr ""
+"Добавление javascript кода отслеживания "
+"Google Analytics на все Ваши страницы сайтов."
+
+#: googleanalytics.admin.inc:478,443
+msgid "Slot"
+msgstr "Позиция"
+
+#: googleanalytics.admin.js:0
+msgid "Not restricted"
+msgstr "Без ограничений"
+
+#: googleanalytics.admin.inc:108
+msgid ""
+"Specify pages by using their paths. Enter one path per line. The '*' "
+"character is a wildcard. Example paths are %blog for the blog page and "
+"%blog-wildcard for every personal blog. %front is the front page."
+msgstr ""
+"Вводите путь к каждой странице в "
+"отдельной строке. При указании пути "
+"можно использовать маску *. Например, "
+"если ввести <em>blog</em>, то действие будет "
+"распространяться только на страницу "
+"блогов, если ввести <em>blog/*</em>, то "
+"действие будет распространяться на "
+"все страницы имеющие в пути слово "
+"<em>blog</em> (страница блогов и все записи в "
+"персональных блогах). Для указания "
+"первой страницы, используйте запись "
+"%front."
+
+#: googleanalytics.admin.inc:111
+msgid "Pages on which this PHP code returns <code>TRUE</code> (experts only)"
+msgstr ""
+"Если введённый PHP-код возвращает "
+"значение <code>TRUE</code>"
+
+#: googleanalytics.admin.inc:112
+msgid "Pages or PHP code"
+msgstr "Страницы или PHP код"
+
+#: googleanalytics.admin.inc:113
+msgid ""
+"If the PHP option is chosen, enter PHP code between %php. Note that "
+"executing incorrect PHP code can break your Drupal site."
+msgstr ""
+"Если выбран пункт «Если введённый "
+"PHP-код возвращает значение <code>TRUE</code>», "
+"то будет выполнен код, заключённый в "
+"теги %php. Отметьте: выполнение "
+"неверного PHP-кода может повредить "
+"сайт."
+
+#: googleanalytics.admin.js:0
+msgid "Not customizable"
+msgstr ""
+"Пользователи не могут управлять "
+"видимостью"
+
+#: googleanalytics.admin.js:0
+msgid "Restricted to certain pages"
+msgstr "Запрещено для определенных страниц"
+
+#: googleanalytics.module:53
+msgid ""
+"Warning: Give to trusted roles only; this permission has security "
+"implications."
+msgstr ""
+"Предупреждение: это право связано с "
+"безопасностью сайта. Предоставляйте "
+"это право только пользователям той "
+"роли, которым вы доверяете."
+
+#: googleanalytics.admin.inc:18,20
+msgid "Web Property ID"
+msgstr "Идентификатор аккаунта"
+
+#: googleanalytics.admin.inc:24,25
+msgid ""
+"This ID is unique to each site you want to track separately, and is in "
+"the form of UA-xxxxxxx-yy. To get a Web Property ID, <a "
+"href=\"@analytics\">register your site with Google Analytics</a>, or "
+"if you already have registered your site, go to your Google Analytics "
+"Settings page to see the ID next to every site profile. <a "
+"href=\"@webpropertyid\">Find more information in the "
+"documentation</a>."
+msgstr ""
+"Данный ID уникален для каждого сайта, "
+"статистику посещений которого вы "
+"хотите отслеживать. Он "
+"предоставляется в формате UA-xxxxxxx-yy. Для "
+"того, чтобы получить идентификатор "
+"веб-ресурса,  <a "
+"href=\"@analytics\">зарегистрируйте ваш сайт в "
+"Google Analytics</a>. Если же вы уже "
+"зарегистрировали сайт, перейдите на "
+"страницу списка сайтов в профиле Google "
+"Analytics и найдите ID сайта, расположенный "
+"рядом с его именем. Более подробную "
+"информацию вы можете найти в <a "
+"href=\"http://code.google.com/intl/ru/apis/analytics/docs/concepts/gaConceptsAccounts.html#webProperty\">документации</a>."
+
+#: googleanalytics.admin.inc:279,228
+msgid "You can select multiple values."
+msgstr "Вы можете выбрать несколько значений."
+
+#: googleanalytics.admin.inc:244,193
+msgid "Anonymize visitors IP address"
+msgstr "IP анонимных посетителей."
+
+#: googleanalytics.admin.inc:245,194
+msgid ""
+"Tell Google Analytics to anonymize the information sent by the tracker "
+"objects by removing the last octet of the IP address prior to its "
+"storage. Note that this will slightly reduce the accuracy of "
+"geographic reporting. In some countries it is not allowed to collect "
+"personally identifying information for privacy reasons and this "
+"setting may help you to comply with the local laws."
+msgstr ""
+
+#: googleanalytics.admin.inc:364,309
+msgid "Locally cache tracking code file"
+msgstr ""
+"Кэшировать локально файл с кодом "
+"счетчика"
+
+#: googleanalytics.admin.inc:365,310
+msgid ""
+"If checked, the tracking code file is retrieved from Google Analytics "
+"and cached locally. It is updated daily from Google's servers to "
+"ensure updates to tracking code are reflected in the local copy. Do "
+"not activate this until after Google Analytics has confirmed that site "
+"tracking is working!"
+msgstr ""
+"Если отмечено, файл с кодом "
+"отслеживания копируется из Google Analytics и "
+"кэшируется локально. Он обновляется "
+"ежедневно с серверов Google, для "
+"отражения обновлений в локальную "
+"копию. Не включайте это, пока Google Analytics "
+"не подтвердил, что отслеживание сайта "
+"работает!"
+
+#: googleanalytics.admin.inc:391,362
+msgid ""
+"Code in this textarea will be added <strong>before</strong> "
+"_gaq.push(['_trackPageview'])."
+msgstr ""
+"Код будет добавлен <strong>перед</strong> "
+"_gaq.push(['_trackPageview'])."
+
+#: googleanalytics.admin.inc:398,370
+msgid ""
+"Code in this textarea will be added <strong>after</strong> "
+"_gaq.push(['_trackPageview']). This is useful if you'd like to track a "
+"site in two accounts."
+msgstr ""
+"Код будет добавлен <strong>после</strong> "
+"_gaq.push(['_trackPageview']). Это может быть "
+"полезно для отслеживания сайта с "
+"нескольких аккаунтов."
+
+#: googleanalytics.module:23
+msgid ""
+"<a href=\"@ga_url\">Google Analytics</a> is a free (registration "
+"required) website traffic and marketing effectiveness service."
+msgstr ""
+"<a href=\"@ga_url\">Google Analytics</a> - это бесплатное "
+"средство веб-аналитики (требует "
+"регистрации), позволяющее оценить "
+"трафик на веб-сайт и эффективность "
+"различных маркетинговых мероприятий."
+
+#: googleanalytics.admin.inc:279,228
+msgid ""
+"For most situations, Google recommend that you use Custom Variables to "
+"segment your visitors."
+msgstr ""
+
+#: googleanalytics.admin.inc:290,239
+msgid ""
+"You can add Google Analytics <a "
+"href=\"!custom_var_documentation\">Custom Variables</a> here. These "
+"will be added to every page that Google Analytics tracking code "
+"appears on. Google Analytics will only accept custom variables if the "
+"<em>name</em> and <em>value</em> combined are less than 64 bytes after "
+"URL encoding. Keep the names as short as possible and expect long "
+"values to get trimmed. You may use tokens in custom variable values. "
+"Global and user tokens are always available; on node pages, node "
+"tokens are also available."
+msgstr ""
+"Здесь вы можете добавить <a "
+"href=\"http://code.google.com/intl/ru/apis/analytics/docs/tracking/gaTrackingCustomVariables.html\">пользовательские "
+"переменные</a>. Они будут добавлены к "
+"каждой странице, на которой будет код "
+"отслеживания Google Analytics. Google Analytics "
+"принимает пользовательские "
+"переменные только, если <em>имя</em> и "
+"<em>значение</em> вместе составляют менее "
+"64 байт после кодирования адреса URL. "
+"Создавайте максимально короткие "
+"имена и учтите, что длинные значения "
+"будут обрезаны. Вы можете "
+"использовать маркеры для создания "
+"пользовательских значений "
+"переменных. Глобальные и "
+"пользовательские маркеры всегда "
+"доступны. На страницах материалов  "
+"также доступны маркеры материалов."
+
+#: googleanalytics.admin.inc:292,241
+msgid "Custom variables"
+msgstr "Пользовательские переменные"
+
+#: googleanalytics.admin.inc:303,255
+msgid "Slot number"
+msgstr "Позиция"
+
+#: googleanalytics.admin.inc:312,263
+msgid "The custom variable name."
+msgstr "Имя пользовательской переменной."
+
+#: googleanalytics.admin.inc:320,269
+msgid "The custom variable value. You may use tokens in this field."
+msgstr ""
+"Значение пользовательской "
+"переменной. В этом поле можно "
+"использовать маркеры."
+
+#: googleanalytics.admin.inc:269
+msgid "The custom variable value."
+msgstr ""
+"Значение пользовательской "
+"переменной."
+
+#: googleanalytics.admin.inc:332,280
+msgid "The scope for the custom variable."
+msgstr "Область переменной."
+
+#: googleanalytics.admin.inc:292
+msgid ""
+"You can supplement Google Analytics' basic IP address tracking of "
+"visitors by segmenting users based on custom variables."
+msgstr ""
+
+#: googleanalytics.admin.inc:292
+msgid ""
+"<a href=\"@module_list\">Enable the token module</a> to be able to use "
+"tokens for more granular tracking."
+msgstr ""
+"<a href=\"@module_list\">Включить модуль Token</a>, "
+"чтобы можно было использовать маркеры "
+"для более детального отслеживания."
+
+#: googleanalytics.admin.inc:279,292
+msgid ""
+"Section 8.1 of the <a href=\"@ga_tos\">Google Analytics terms of "
+"use</a> requires you to make sure you will not associate (or permit "
+"any third party to associate) any data gathered from your websites (or "
+"such third parties' websites) with any personally identifying "
+"information from any source as part of your use (or such third "
+"parties' use) of the Google Analytics' service."
+msgstr ""
+
+#: googleanalytics.admin.inc:424,393
+msgid ""
+"The custom variable @slot-number requires a <em>Value</em> if a "
+"<em>Name</em> has been provided."
+msgstr ""
+
+#: googleanalytics.admin.inc:427,396
+msgid ""
+"The custom variable @slot-number requires a <em>Name</em> if a "
+"<em>Value</em> has been provided."
+msgstr ""
+
+#: googleanalytics.admin.inc:403
+msgid ""
+"The custom variable %element-title is using forbidden tokens with "
+"personal identifying information."
+msgstr ""
+
+#: googleanalytics.admin.inc:528,495
+msgid ""
+"The %element-title is using the following forbidden tokens with "
+"personal identifying information: @invalid-tokens."
+msgstr ""
+
+#: googleanalytics.tokens.inc:14; googleanalytics.module:563
+msgid ""
+"The role names the user account is a member of as comma separated "
+"list."
+msgstr ""
+"Разделенный запятой список названий "
+"ролей пользователя."
+
+#: googleanalytics.tokens.inc:19; googleanalytics.module:564
+msgid "The role ids the user account is a member of as comma separated list."
+msgstr ""
+"Разделенный запятой список "
+"идентификаторов ролей пользователя"
+
+#: googleanalytics.module:416,428,454,377,389,415
+msgid "googleanalytics"
+msgstr ""
+
+#: googleanalytics.module:416,377
+msgid "Locally cached tracking code file has been updated."
+msgstr ""
+"Сохраненный локально файл кода "
+"отслеживания был обновлен."
+
+#: googleanalytics.module:428,389
+msgid "Locally cached tracking code file has been saved."
+msgstr ""
+"Локальный файл кода отслеживания был "
+"сохранен."
+
+#: googleanalytics.module:454,415
+msgid "Local cache has been purged."
+msgstr ""
+
+#: googleanalytics.admin.inc:30
+msgid "Tracking scope"
+msgstr "Область применения отслеживания"
+
+#: googleanalytics.admin.inc:167
+msgid "Allow users to customize tracking on their account page"
+msgstr ""
+"Разрешить пользователям настраивать "
+"слежение на странице профиля"
+
+#: googleanalytics.admin.inc:169
+msgid "No customization allowed"
+msgstr "Настройка запрещена"
+
+#: googleanalytics.admin.inc:170
+msgid "Tracking on by default, users with %permission permission can opt out"
+msgstr ""
+"Слежение включено, пользователи с "
+"правами \"%permission\" могут отключить "
+"слежение"
+
+#: googleanalytics.admin.inc:171
+msgid "Tracking off by default, users with %permission permission can opt in"
+msgstr ""
+"Слежение отключено, пользователи с "
+"правами \"%permission\" могут включить "
+"слежение"
+
+#: googleanalytics.admin.inc:105
+msgid "Every page except the listed pages"
+msgstr ""
+"На всех страницах, кроме "
+"перечисленных"
+
+#: googleanalytics.admin.inc:106
+msgid "The listed pages only"
+msgstr "Только для страниц списка"
+
+#: googleanalytics.admin.inc:179
+msgid "Links and downloads"
+msgstr "Ссылки и загрузки"
+
+#: googleanalytics.admin.inc:188
+msgid "Track clicks on mailto links"
+msgstr "Слежение за mailto ссылками"
+
+#: googleanalytics.admin.inc:193
+msgid "Track downloads (clicks on file links) for the following extensions"
+msgstr ""
+"Отслеживать загрузки (клики на "
+"файловые ссылки) для следующих "
+"расширений"
+
+#: googleanalytics.admin.inc:197
+msgid "List of download file extensions"
+msgstr "Список  расширений загружаемых файлов"
+
+#: googleanalytics.admin.inc:201
+msgid ""
+"A file extension list separated by the | character that will be "
+"tracked as download when clicked. Regular expressions are supported. "
+"For example: !extensions"
+msgstr ""
+"Список расширений файлов, разделенных "
+"символом |, которые будут "
+"отслеживаться как скачанные при "
+"нажатии мышкой. Поддерживаются "
+"регулярные выражения. Например: !extensions"
+
+#: googleanalytics.admin.inc:215
+msgid "Search and AdSense"
+msgstr "Поиск и AdSense"
+
+#: googleanalytics.admin.inc:263
+msgid "Additional user information"
+msgstr ""
+
+#: googleanalytics.admin.inc:278
+msgid "Segment users based on these selected properties"
+msgstr ""
+
+#: googleanalytics.admin.inc:279
+msgid ""
+"You can supplement Google Analytics' basic IP address tracking of "
+"visitors by segmenting users based on these selected properties."
+msgstr ""
+
+#: googleanalytics.admin.inc:306,333
+msgid "Custom variable slot #@slot"
+msgstr ""
+
+#: googleanalytics.admin.inc:314
+msgid "Custom variable name #@slot"
+msgstr ""
+
+#: googleanalytics.admin.inc:321
+msgid "Custom variable value #@slot"
+msgstr ""
+
+#: googleanalytics.admin.inc:346
+msgid ""
+"You can supplement Google Analytics' basic IP address tracking of "
+"visitors by segmenting users based on custom variables. Section 8.1 of "
+"the <a href=\"@ga_tos\">Google Analytics terms of use</a> requires you "
+"to make sure you will not associate (or permit any third party to "
+"associate) any data gathered from your websites (or such third "
+"parties' websites) with any personally identifying information from "
+"any source as part of your use (or such third parties' use) of the "
+"Google Analytics' service."
+msgstr ""
+
+#: googleanalytics.admin.inc:384
+msgid ""
+"You can add custom Google Analytics <a href=\"@snippets\">code "
+"snippets</a> here. These will be added every time tracking is in "
+"effect. Before you add your custom code, you should read the <a "
+"href=\"@ga_concepts_overview\">Google Analytics Tracking Code - "
+"Functional Overview</a> and the <a href=\"@ga_js_api\">Google "
+"Analytics Tracking API</a> documentation. <strong>Do not include the "
+"&lt;script&gt; tags</strong>, and always end your code with a "
+"semicolon (;)."
+msgstr ""
+
+#: googleanalytics.admin.inc:439,414
+msgid ""
+"A valid Google Analytics Web Property ID is case sensitive and "
+"formatted like UA-xxxxxxx-yy."
+msgstr ""
+
+#: googleanalytics.tokens.inc:13
+msgid "User role names"
+msgstr "Названия ролей пользователя"
+
+#: googleanalytics.tokens.inc:18
+msgid "User role ids"
+msgstr "Идентификаторы ролей пользователя"
+
+#: googleanalytics.module:44
+msgid "Administer Google Analytics"
+msgstr "Управление Google Analytics"
+
+#: googleanalytics.module:45
+msgid "Perform maintenance tasks for Google Analytics."
+msgstr ""
+"Выполнять работу по обслуживанию Google "
+"Analytics."
+
+#: googleanalytics.module:48
+msgid "Opt-in or out of tracking"
+msgstr "Согласие или отказ от отслеживания"
+
+#: googleanalytics.module:49
+msgid "Allow users to decide if tracking code will be added to pages or not."
+msgstr ""
+"Позволяет пользователям решать, будет "
+"ли добавляться код отслеживания на "
+"страницы, или нет."
+
+#: googleanalytics.module:52
+msgid "Use PHP for tracking visibility"
+msgstr ""
+
+#: googleanalytics.module:53
+msgid "Enter PHP code in the field for tracking visibility settings. %warning"
+msgstr ""
+
+#: googleanalytics.module:64
+msgid ""
+"Configure tracking behavior to get insights into your website traffic "
+"and marketing effectiveness."
+msgstr ""
+"Настройка отслеживания посетителей "
+"для понимания трафика сайта и "
+"эффективности маркетинга."
+
+#: googleanalytics.install:95
+msgid "Updated download tracking file extensions."
+msgstr ""
+"Обновлены отслеживаемые расширения "
+"загружаемых файлов."
+
+#: googleanalytics.install:110
+msgid "Added page tracking to every page except the listed pages: @pages."
+msgstr ""
+"Добавлено отслеживание для каждой "
+"страницы, кроме перечисленных: @pages."
+
+#: googleanalytics.install:125
+msgid "Enabled page tracking for role: @name."
+msgstr ""
+"Включено отслеживание страниц для "
+"роли: @name."
+
+#: googleanalytics.install:128
+msgid "Disabled page tracking for role: @name."
+msgstr ""
+"Выключено отслеживание страниц для "
+"роли: @name."
+
+#: googleanalytics.install:140
+msgid "Disabled user specific page tracking for site administrator."
+msgstr ""
+"Для администратора сайта выключено "
+"пользовательское отслеживание "
+"страниц."
+
+#: googleanalytics.install:156
+msgid "Menu has been rebuild."
+msgstr "Меню было перестроено."
+
+#: googleanalytics.install:181
+msgid "Path visibility filter setting changed from \"user*\" to \"user/*/*\"."
+msgstr ""
+
+#: googleanalytics.install:184,214,414
+msgid "Custom path visibility filter setting found. Update skipped!"
+msgstr ""
+
+#: googleanalytics.install:211
+msgid ""
+"Path visibility filter setting changed from \"admin*\" to \"admin\" "
+"and \"admin/*\"."
+msgstr ""
+
+#: googleanalytics.install:225
+msgid "Upgraded custom javascript codesnippet setting."
+msgstr ""
+
+#: googleanalytics.install:240
+msgid ""
+"Removed \"User identifier\" and \"User name\" from segmentation "
+"fields."
+msgstr ""
+
+#: googleanalytics.install:253
+msgid "Removed outdated legacy tracker stuff."
+msgstr ""
+
+#: googleanalytics.install:264
+msgid "The default extensions for download tracking have been updated."
+msgstr ""
+"Расширения по умолчанию для "
+"отслеживания загрузок были обновлены."
+
+#: googleanalytics.install:290
+msgid "Upgraded custom \"before\" code snippet."
+msgstr ""
+
+#: googleanalytics.install:298
+msgid "Skipped custom \"after\" code snippet."
+msgstr ""
+
+#: googleanalytics.install:310
+msgid "Google tracking code has been moved to header."
+msgstr ""
+"Код отслеживания от Google был перемещен "
+"в заголовок."
+
+#: googleanalytics.install:317
+msgid ""
+"The D6 token placeholder [user-role-names] used in the custom variable "
+"'User roles' has been replaced with [current-user:role-names]."
+msgstr ""
+
+#: googleanalytics.install:333
+msgid ""
+"The default country in your regional settings is Germany. Anonymizing "
+"of IP addresses has been enabled for privacy reasons."
+msgstr ""
+
+#: googleanalytics.install:336
+msgid ""
+"The default country in your regional settings is <em>not</em> Germany. "
+"The anonymizing of IP addresses setting has not been changed. Make "
+"sure your site settings comply with the local privacy rules."
+msgstr ""
+
+#: googleanalytics.info:0
+msgid ""
+"Allows your site to be tracked by Google Analytics by adding a "
+"Javascript tracking code to every page."
+msgstr ""
+"Позволяет сайту отслеживать "
+"посетителей при помощи Google Analytics "
+"внедрением Javascript кода на каждой "
+"странице."
+
+#: googleanalytics.admin.js:0
+msgid "On by default with opt out"
+msgstr "По умолчанию включено, с отказом"
+
+#: googleanalytics.admin.js:0
+msgid "Off by default with opt in"
+msgstr "По умолчанию выключено, с согласием"
+
+#: googleanalytics.admin.js:0
+msgid "Not tracked"
+msgstr "Не отслеживается"
+
+#: googleanalytics.admin.js:0
+msgid "@items tracked"
+msgstr ""
+
+#: googleanalytics.install:301
+msgid "No custom code snipped found. Nothing to do."
+msgstr ""
+
+#: googleanalytics.admin.inc:71,48
+msgid "What are you tracking?"
+msgstr "Что вы отслеживаете?"
+
+#: googleanalytics.admin.inc:73,50
+msgid "A single domain (default)"
+msgstr "Один домен (по умолчанию)"
+
+#: googleanalytics.admin.inc:73,50
+msgid "Domain: @domain"
+msgstr "Домен: @domain"
+
+#: googleanalytics.admin.inc:74,51; googleanalytics.admin.js:0
+msgid "One domain with multiple subdomains"
+msgstr "Один домен с несколькими субдоменами"
+
+#: googleanalytics.admin.inc:74,75,51
+msgid "Examples: @domains"
+msgstr "Примеры: @domains"
+
+#: googleanalytics.admin.inc:75; googleanalytics.admin.js:0
+msgid "Multiple top-level domains"
+msgstr "Несколько доменов верхнего уровня"
+
+#: googleanalytics.admin.inc:80
+msgid "List of top-level domains"
+msgstr "Список доменов верхнего уровня"
+
+#: googleanalytics.admin.inc:83
+msgid ""
+"If you selected \"Multiple top-level domains\" above, enter all "
+"related top-level domains. Add one domain per line. By default, the "
+"data in your reports only includes the path and name of the page, and "
+"not the domain name. For more information see section <em>Show "
+"separate domain names</em> in <a "
+"href=\"http://www.google.com/support/analytics/bin/answer.py?answer=175538\">Tracking "
+"multiple domains</a>."
+msgstr ""
+"Если выбран пункт \"Несколько доменов "
+"верхнего уровня\", внесите все эти "
+"домены в поле. По одному на линию. По "
+"умолчанию, информация в отчетах "
+"содержит информацию о страница, но не "
+"о доменах. Для более подробной "
+"информации смотрите раздел "
+"<em>Отображение названий отдельных "
+"доменов</em> на странице: <a "
+"href=\"http://www.google.com/support/analytics/bin/answer.py?answer=175538\">Отслеживание "
+"нескольких доменов</a>."
+
+#: googleanalytics.admin.inc:144,108
+msgid "Add to the selected roles only"
+msgstr "Добавить только для выбранных ролей"
+
+#: googleanalytics.admin.inc:145,109
+msgid "Add to every role except the selected ones"
+msgstr ""
+"Добавить для всех ролей, кроме "
+"выбранных"
+
+#: googleanalytics.admin.inc:156,124
+msgid ""
+"If none of the roles are selected, all users will be tracked. If a "
+"user has any of the roles checked, that user will be tracked (or "
+"excluded, depending on the setting above)."
+msgstr ""
+"Если не выбрано ни одной роли, то "
+"слежение будет проводиться за всеми "
+"пользователями. Если выбрана одна и "
+"более ролей, то эта роль будет "
+"отслеживаться (или убрана из "
+"отслеживания, в зависимости от "
+"настроек выше)"
+
+#: googleanalytics.admin.inc:183
+msgid "Track clicks on outbound links"
+msgstr "Слежение за ссылками на внешние сайты"
+
+#: googleanalytics.admin.inc:206,179
+msgid "Track clicks on outbound links as page views"
+msgstr ""
+"Отслеживать переходы по ссылкам на "
+"внешние сайты как просмотр страниц"
+
+#: googleanalytics.admin.inc:208,181
+msgid ""
+"By default outbound links are tracked as <em>Events</em>. In rare "
+"situations like tracking of <em>Goals</em> it may be required to track "
+"outbound clicks as page views."
+msgstr ""
+"Стандартно ссылки на внешние сайты "
+"отслеживаются как <em>события</em>. В "
+"редких случаях, таких как достижение "
+"<em>Цели</em>, может потребоваться "
+"интерпретация перехода по ссылке на "
+"внешние сайты как переход по странице "
+"сайта."
+
+#: googleanalytics.admin.inc:404
+msgid ""
+"Google recommends adding the external JavaScript files to the header "
+"for performance reasons. If <em>Multiple top-level domains</em> has "
+"been selected, this setting will be forced to header."
+msgstr ""
+"Google рекомендует добавлять внешние "
+"JavaScript-файлы в заголовок, по "
+"соображениям производительности. "
+"Если выбрано <em>Несколько доменов "
+"верхнего уровня</em>, этот параметр "
+"будет установлен в заголовок."
+
+#: googleanalytics.admin.inc:444
+msgid ""
+"A list of top-level domains is required if <em>Multiple top-level "
+"domains</em> has been selected."
+msgstr ""
+
+#: googleanalytics.install:359,346
+msgid ""
+"The deprecated profile segmentation setting for \"User roles\" has "
+"been added to custom variables. You need to deselect all selected "
+"profile fields in <a href=\"@admin\">Google Analytics settings</a> and "
+"upgrade other profile fields manually or you may loose tracking data "
+"in future! See Google Analytics <a href=\"@customvar\">Custom "
+"Variables</a> for more information."
+msgstr ""
+
+#: googleanalytics.install:362,349
+msgid ""
+"You need to deselect all selected profile fields in <a "
+"href=\"@admin\">Google Analytics settings</a> and upgrade other "
+"profile fields manually or you may loose tracking data in future! See "
+"Google Analytics <a href=\"@customvar\">Custom Variables</a> for more "
+"information."
+msgstr ""
+
+#: googleanalytics.install:373
+msgid ""
+"Renamed \"googleanalytics_trackoutgoing\" settings variable to "
+"googleanalytics_trackoutbound."
+msgstr ""
+
+#: googleanalytics.install:383
+msgid ""
+"Renamed \"googleanalytics_visibility\" settings variable to "
+"googleanalytics_visibility_pages."
+msgstr ""
+
+#: googleanalytics.admin.js:0
+msgid "All pages with exceptions"
+msgstr "Все страницы с исключениями"
+
+#: googleanalytics.admin.js:0
+msgid "Excepted: @roles"
+msgstr "Исключены: @roles"
+
+#: googleanalytics.admin.js:0
+msgid "A single domain"
+msgstr "Один домен"
+
+#: googleanalytics.admin.inc:154
+msgid "Track outbound links"
+msgstr "Отслеживать исходящие ссылки"
+
+#: googleanalytics.install:350
+msgid ""
+"<a href=\"@token\">Token</a> module is recommended for custom "
+"variables."
+msgstr ""
+"<a href=\"@token\">Модуль Token</a> рекомендуется "
+"для пользовательских переменных."
+
+#: googleanalytics.admin.inc:250,199
+msgid "Universal web tracking opt-out"
+msgstr ""
+"Универсальный отказ от "
+"веб-отслеживания"
+
+#: googleanalytics.install:411
+msgid "Added \"batch\" to path visibility filter setting."
+msgstr ""
+
+#: googleanalytics.admin.js:0
+msgid "No privacy"
+msgstr "Нет конфиденциальности"
+
+#: googleanalytics.admin.js:0
+msgid "@items enabled"
+msgstr "@items включены"
+
+#: googleanalytics.admin.inc:251,200
+msgid ""
+"If enabled and your server receives the <a "
+"href=\"http://donottrack.us/\">Do-Not-Track</a> header from the client "
+"browser, the Google Analytics module will not embed any tracking code "
+"into your site. Compliance with Do Not Track could be purely "
+"voluntary, enforced by industry self-regulation, or mandated by state "
+"or federal law. Please accept your visitors privacy. If they have "
+"opt-out from tracking and advertising, you should accept their "
+"personal decision. This feature is currently limited to logged in "
+"users and disabled page caching."
+msgstr ""
+"Если включено и ваш сервер получает "
+"заголовок <a href=\"http://donottrack.us/\">Do-Not-Track</a> "
+"от клиентского браузера, модуль Google "
+"Analytics не будет вставлять какой бы то ни "
+"было код отслеживания на ваш сайт. "
+"Совместимость с Do Not Track может быть "
+"чисто добровольной, обеспечиваться "
+"саморегулированием отрасли, или "
+"требоваться по закону штата или "
+"федеральному закону. Пожалуйста, "
+"уважайте конфиденциальность ваших "
+"посетителей. Если они отказываются от "
+"отслеживания и рекламы, вы должны "
+"принять их личное решение. Эта функция "
+"в настоящее время ограничивается "
+"зарегистрированными пользователями и "
+"выключенным кэшированием страниц."
+
+#: googleanalytics.module:323,305
+msgid "You have opted out from tracking via browser privacy settings."
+msgstr ""
+"Вы отказались от отслеживания через "
+"настройки конфиденциальности "
+"браузера."
+
