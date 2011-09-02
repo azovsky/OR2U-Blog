@@ -1,10 +1,11 @@
-name = Basque Services
-description = Provide the Basque Services: Zabaldu, Bildu, Aupatu
+name = Farsi Services
+description = Provide the Farsi services: Balatarin, Donbaleh, Friendfa, Viwio.
 core = 7.x
 package = Service Links
 dependencies[] = service_links
+
 version = VERSION
-files[] = basque_services.module
+files[] = farsi_services.module
 
 ; Information added by drupal.org packaging script on 2011-08-24
 version = "7.x-2.x-dev"

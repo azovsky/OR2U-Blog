@@ -3,7 +3,7 @@
 /**
  * @file
  * Add the support for Print module,
- * this work only if alias are enabled in print module.
+ * work only if alias are enabled in Print module.
  */
 
 /**
@@ -14,14 +14,14 @@ function print_services_service_links() {
 
   $links['print'] = array(
     'name' => 'Print HTML',
-    'link' => url('print', array('absolute' => TRUE)) . '/<query>',
+    'link' => '<front-page>print/<query>',
     'description' => t('Printable version'),
   );
 
   if (module_exists('print_pdf')) {
     $links['printpdf'] = array(
       'name' => 'Print Pdf',
-      'link' => url('printpdf', array('absolute' => TRUE)) . '/<query>',
+      'link' => '<front-page>printpdf/<query>',
       'description' => t('PDF version'),
     );
   }
@@ -29,7 +29,7 @@ function print_services_service_links() {
   if (module_exists('print_mail')) {
     $links['printmail'] = array(
       'name' => 'Print Mail',
-      'link' => url('printmail', array('absolute' => TRUE)) . '/<query>',
+      'link' => '<front-page>printmail/<query>',
       'description' => t('Send to a friend'),
     );
   }

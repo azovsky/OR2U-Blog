@@ -58,7 +58,7 @@ function  widget_services_admin() {
     '#type' => 'textfield',
     '#default_value' => variable_get('service_links_fl_width', 100),
     '#description' => t('A good value for button layout is 100, for box layout is 80 and for standard layout 450'),
-    '#size' => '10',
+    '#size' => 10,
   );
   $form['facebook_like']['service_links_fl_font'] = array(
     '#title' => t('Font'),
@@ -109,7 +109,7 @@ function  widget_services_admin() {
     '#type' => 'textfield',
     '#default_value' => variable_get('service_links_fl_locale', ''),
     '#description' => t('Enter the language code and the country code separated by an underscore (i.e. es_ES, en_EN, en_US, it_IT, fr_FR, pt_BR, pt_PT)'),
-    '#size' => '5',
+    '#size' => 5,
     '#attributes' => array('class' => array('container-inline')),
   );
  
@@ -194,6 +194,23 @@ function  widget_services_admin() {
     '#title' => t('Show counter'),
     '#type' => 'checkbox',
     '#default_value' => variable_get('service_links_gpo_counter', TRUE),
+  );
+
+  $form['linkedin_share_button'] = array(
+    '#type' => 'fieldset',
+    '#collapsible' => TRUE,
+    '#collapsed' => FALSE,
+    '#title' => t('Linkedin Share Button'),
+  );
+  $form['linkedin_share_button']['service_links_lsb_countmode'] = array(
+    '#title' => t('Count Mode'),
+    '#type' => 'select',
+    '#default_value' => variable_get('service_links_lsb_countmode', 'right'),
+    '#options' => array(
+      'top' => t('Vertical'),
+      'right' => t('Horizontal'),
+      '' => t('No Count'),
+    ),
   );
 
   return system_settings_form($form);
