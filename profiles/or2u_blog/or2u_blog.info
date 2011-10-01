@@ -47,4 +47,4 @@ dependencies[] = xmlsitemap
 dependencies[] = xmlsitemap_node
 dependencies[] = xmlsitemap_engines
 files[] = or2u_blog.profile
-version = 2.0 beta1
+version = 2.0 beta3

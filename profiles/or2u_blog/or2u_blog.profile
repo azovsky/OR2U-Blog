@@ -3,7 +3,7 @@
 /**
  * The current OR2U Blog version.
  */
-define('OR2UB_VERSION', '2.0:beta1');
+define('OR2UB_VERSION', '2.0:beta3');
 
 /**
  * Implements hook_form_FORM_ID_alter().
